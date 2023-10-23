@@ -469,24 +469,26 @@
     ]
   },
   "packageFolders": {
-    "/home/ubid/.nuget/packages/": {}
+    "C:\\Users\\ubid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ubid/CS/GamesUp/GamesUp.Api/GamesUp.Api.csproj",
+      "projectUniqueName": "C:\\CS\\GamesUp\\GamesUpBackend\\GamesUp.Api\\GamesUp.Api.csproj",
       "projectName": "GamesUp.Api",
-      "projectPath": "/home/ubid/CS/GamesUp/GamesUp.Api/GamesUp.Api.csproj",
-      "packagesPath": "/home/ubid/.nuget/packages/",
-      "outputPath": "/home/ubid/CS/GamesUp/GamesUp.Api/obj/",
+      "projectPath": "C:\\CS\\GamesUp\\GamesUpBackend\\GamesUp.Api\\GamesUp.Api.csproj",
+      "packagesPath": "C:\\Users\\ubid\\.nuget\\packages\\",
+      "outputPath": "C:\\CS\\GamesUp\\GamesUpBackend\\GamesUp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ubid/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ubid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -533,7 +535,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
