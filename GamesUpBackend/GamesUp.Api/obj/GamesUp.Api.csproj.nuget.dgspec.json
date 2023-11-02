@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ubid/CS/GamesUp/GamesUpBackend/GamesUp.Api/GamesUp.Api.csproj": {}
+  },
+  "projects": {
+    "/home/ubid/CS/GamesUp/GamesUpBackend/GamesUp.Api/GamesUp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubid/CS/GamesUp/GamesUpBackend/GamesUp.Api/GamesUp.Api.csproj",
+        "projectName": "GamesUp.Api",
+        "projectPath": "/home/ubid/CS/GamesUp/GamesUpBackend/GamesUp.Api/GamesUp.Api.csproj",
+        "packagesPath": "/home/ubid/.nuget/packages/",
+        "outputPath": "/home/ubid/CS/GamesUp/GamesUpBackend/GamesUp.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
