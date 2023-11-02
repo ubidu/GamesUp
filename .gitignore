@@ -700,3 +700,16 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/aspnetcore,rider
 
+# Add these lines to your .gitignore file
+GamesUpBackend/GamesUp.Api/obj/Debug/net7.0/GamesUp.Api.GeneratedMSBuildEditorConfig.editorconfig
+GamesUpBackend/GamesUp.Api/obj/Debug/net7.0/GamesUp.Api.assets.cache
+GamesUpBackend/GamesUp.Api/obj/GamesUp.Api.csproj.nuget.dgspec.json
+GamesUpBackend/GamesUp.Api/obj/GamesUp.Api.csproj.nuget.g.props
+GamesUpBackend/GamesUp.Api/obj/GamesUp.Api.csproj.nuget.g.targets
+GamesUpBackend/GamesUp.Api/obj/project.assets.json
+GamesUpBackend/GamesUp.Api/obj/project.nuget.cache
+GamesUpBackend/GamesUp.Api/obj/project.packagespec.json
+GamesUpBackend/GamesUp.Api/obj/rider.project.model.nuget.info
+GamesUpBackend/GamesUp.Api/obj/rider.project.restore.info
+
+
