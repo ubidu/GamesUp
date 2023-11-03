@@ -8,17 +8,16 @@ public class Game
     public string Name { get; private set; }
     public string Description { get; private set; }
     public string CoverPath { get; private set; }
-    public Category Category { get; private set; }
+    public string Category { get; private set; }
     public DateTime ReleaseDate { get; private set; }
-    public Platform Platform { get; private set; }
-    public Developer Developer { get; private set; }
-    public Publisher Publisher { get; private set; }
-    public ICollection<Review> Reviews { get; private set; }
+    public string Platform { get; private set; }
+    public string Developer { get; private set; }
+    public string Publisher { get; private set; }
     
     private Game() {}
 
-    private Game(Guid id, string name, string description, string coverPath, Category category, DateTime releaseDate,
-        Platform platform, Developer developer, Publisher publisher, ICollection<Review>? reviews = null)
+    private Game(Guid id, string name, string description, string coverPath, string category, DateTime releaseDate,
+        string platform, string developer, string publisher)
     {
         Id = id;
         Name = name;
@@ -29,11 +28,10 @@ public class Game
         Platform = platform;
         Developer = developer;
         Publisher = publisher;
-        Reviews = reviews;
     }
 
-    public static ErrorOr<Game> Create(string name, string description, string coverPath, Category category,
-        DateTime releaseDate, Platform platform, Developer developer, Publisher publisher, Guid? id = null)
+    public static ErrorOr<Game> Create(string name, string description, string coverPath, string category,
+        DateTime releaseDate, string platform, string developer, string publisher, Guid? id = null)
     {
         List<Error> errors = new();
 
