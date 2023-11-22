@@ -1,9 +1,11 @@
 using GamesUp.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace GamesUp.Persistence;
 
-public class GamesUpDbContext : DbContext
+public class GamesUpDbContext : IdentityDbContext<IdentityUser>
 {
     public GamesUpDbContext(DbContextOptions<GamesUpDbContext> options) : base(options)
     {
@@ -13,6 +15,7 @@ public class GamesUpDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(GamesUpDbContext).Assembly);
     }
 }
