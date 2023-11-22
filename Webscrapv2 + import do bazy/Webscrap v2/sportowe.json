@@ -1,0 +1,212 @@
+[
+    {
+        "Name": "Football Manager 2024",
+        "Description": "Dwudziesta g\u0142\u00f3wna ods\u0142ona bestsellerowego cyklu gier sportowych typu menad\u017cer. W Football Manager 2024 prowadzimy do zwyci\u0119stwa w\u0142asn\u0105 dru\u017cyn\u0119 pi\u0142karsk\u0105, a na naszych barkach spoczywa wszystko, co jest zwi\u0105zane z jej funkcjonowaniem.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1052616890.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-11-06",
+        "Platform": "PC",
+        "Developer": "Sports Interactive",
+        "Publisher": "SEGA"
+    },
+    {
+        "Name": "EA Sports FC 24",
+        "Description": "Gra pi\u0142karska od znanego z serii FIFA studia EA Sports. Jest to pierwsza tego typu produkcja od ponad trzydziestu lat, kt\u00f3ra nie powsta\u0142a we wsp\u00f3\u0142pracy z organizacj\u0105 FIFA \u2013 brak porozumienia odno\u015bnie do wsp\u00f3\u0142pracy, prze\u0142o\u017cy\u0142 si\u0119 na decyzj\u0119 o stworzeniu nowej marki.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/431427296.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-09-29",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "EA Sports",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "EA Sports UFC 5",
+        "Description": "Pi\u0105ta cz\u0119\u015b\u0107 opartej na licencji UFC serii gier sportowych po\u015bwi\u0119conych mieszanym sztukom walki (MMA). EA Sports UFC 5 oferuje mi\u0119dzy innymi nowe systemy uszkodze\u0144 cia\u0142a oraz walki w parterze, a tak\u017ce opraw\u0119 graficzn\u0105 wysokiej jako\u015bci.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/966369453.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-10-27",
+        "Platform": "PS5, XSX",
+        "Developer": "EA Sports",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "Football Manager 2024 Mobile",
+        "Description": "Specjalna wersja gry Football Manager 2024, przygotowana z my\u015bl\u0105 o smartfonach i tabletach. W Football Manager 2024 Mobile wcielamy si\u0119 w menad\u017cera dru\u017cyny pi\u0142karskiej, a na naszych barkach spoczywaj\u0105 wszystkie kwestie zwi\u0105zane z karier\u0105 zespo\u0142u.",
+        "CoverPath": "/galeria/gry13/200/-2079347859.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-11-06",
+        "Platform": "AND, iOS",
+        "Developer": "Sports Interactive",
+        "Publisher": "SEGA"
+    },
+    {
+        "Name": "Football Manager 2024 Touch",
+        "Description": "Specjalne wydanie gry Football Manager 2024, przygotowane z my\u015bl\u0105 o urz\u0105dzeniach mobilnych oraz konsoli Nintendo Switch. W Football Manager 2024 Touch wcielamy si\u0119 w rol\u0119 menad\u017cera dru\u017cyny pi\u0142karskiej, kt\u00f3r\u0105 prowadzimy do zwyci\u0119stwa.",
+        "CoverPath": "/galeria/gry13/200/-2079108781.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-11-06",
+        "Platform": "Switch, iOS",
+        "Developer": "Sports Interactive",
+        "Publisher": "SEGA"
+    },
+    {
+        "Name": "Football Manager 2024 Console",
+        "Description": "Specjalna wersja gry Football Manager 2024, przygotowana g\u0142\u00f3wnie z my\u015bl\u0105 o konsolach. Football Manager 2024 Console pozwala nam wcieli\u0107 si\u0119 w rol\u0119 menad\u017cera dru\u017cyny pi\u0142karskiej, a w trakcie zabawy na naszych barkach spoczywaj\u0105 wszystkie aspekty funkcjonowania zespo\u0142u.",
+        "CoverPath": "/galeria/gry13/200/-1306422875.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-11-06",
+        "Platform": "PC, PS5, XSX, XONE",
+        "Developer": "Sports Interactive",
+        "Publisher": "SEGA"
+    },
+    {
+        "Name": "NBA 2K24",
+        "Description": "Dwudziesta pi\u0105ta cz\u0119\u015b\u0107 bestsellerowej serii koszykarskich gier sportowych. W NBA 2K24 rozgrywamy mecze koszyk\u00f3wki, do kt\u00f3rych prowadzimy jedn\u0105 z istniej\u0105cych dru\u017cyn b\u0105d\u017a w\u0142asny zesp\u00f3\u0142. W grze zaimplementowano specjalne wyzwania, w kt\u00f3rych g\u0142\u00f3wn\u0105 rol\u0119 odgrywa Kobe Bryant.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/707374234.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-09-08",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Visual Concepts",
+        "Publisher": "2K Sports"
+    },
+    {
+        "Name": "WWE 2K23",
+        "Description": "WWE 2K23 to kolejna ods\u0142ona popularnego wrestlingowego cyklu firmy 2K Games. Gra pozwala pokierowa\u0107 gwiazdami tego sportu, jak r\u00f3wnie\u017c sprawdzi\u0107 si\u0119 w roli manad\u017cera. Wszystkim tym mo\u017cemy bawi\u0107 si\u0119 samotnie lub w multiplayerze.",
+        "CoverPath": "/galeria/gry13/200/1744236718.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-03-16",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Visual Concepts",
+        "Publisher": "2K Games"
+    },
+    {
+        "Name": "NHL 24",
+        "Description": "Trzydziesta trzecia cz\u0119\u015b\u0107 serii po\u015bwi\u0119conych hokejowi gier sportowych. NHL 24 oferuje poprawion\u0105 fizyk\u0119 i animacje, funkcjonalno\u015b\u0107 cross-platform, a tak\u017ce technologi\u0119 Exhaust Engine, kt\u00f3ra od\u015bwie\u017ca szereg aspekt\u00f3w rozgrywki.",
+        "CoverPath": "/galeria/gry13/200/-1919646031.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-10-06",
+        "Platform": "PS5, XSX, PS4, XONE",
+        "Developer": "EA Sports",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "EA Sports FC Mobile",
+        "Description": "Mobilne wcielenie marki EA Sports FC. Na tle gry FIFA Mobile opisywana produkcja wyr\u00f3\u017cnia si\u0119 za spraw\u0105 szeregu ulepsze\u0144 oraz nowych funkcji. EA Sports FC Mobile jest dzie\u0142em zespo\u0142u EA Sports.",
+        "CoverPath": "/galeria/gry13/200/992761234.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-09-26",
+        "Platform": "AND, iOS",
+        "Developer": "EA Sports",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "Blood Bowl 3",
+        "Description": "Trzecia g\u0142\u00f3wna ods\u0142ona serii gier quasi-sportowych. W Blood Bowl 3 rasy znane z uniwersum Warhammera Fantasy Battle walcz\u0105 mi\u0119dzy sob\u0105 w krwawej wersji futbolu ameryka\u0144skiego. Za powstanie gry odpowiada Cyanide Studio.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/546302484.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-02-23",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Cyanide Studio",
+        "Publisher": "Nacon / Bigben Interactive"
+    },
+    {
+        "Name": "Pro Cycling Manager 2023",
+        "Description": "Pro Cycling Manager 2023 to menad\u017cer kolarski. Podczas zabawy gracz mo\u017ce pokierowa\u0107 ca\u0142\u0105 dru\u017cyn\u0105 zawodnik\u00f3w lub te\u017c zaj\u0105\u0107 si\u0119 karier\u0105 tylko pojedynczego sportowca. Poza dbaniem o wyniki na zawodach musimy tak\u017ce zarz\u0105dza\u0107 finansow\u0105 stron\u0105 zawodowego kolarstwa.",
+        "CoverPath": "/galeria/gry13/200/-1823178140.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-06-08",
+        "Platform": "PC",
+        "Developer": "Cyanide Studio",
+        "Publisher": "Nacon / Bigben Interactive"
+    },
+    {
+        "Name": "Wild Card Football",
+        "Description": "Po\u015bwi\u0119cona futbolowi ameryka\u0144skiemu gra sportowa od studia Saber Interactive. W Wild Card Football prowadzimy do zwyci\u0119stwa swoj\u0105 dru\u017cyn\u0119, w trakcie meczy zagrywaj\u0105c tytu\u0142owe dzikie karty, kt\u00f3re zapewniaj\u0105 naszym zawodnikom rozmaite wzmocnienia.",
+        "CoverPath": "/galeria/gry13/200/-2090548671.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-10-10",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Saber Interactive",
+        "Publisher": "Saber Interactive"
+    },
+    {
+        "Name": "Tour de France 2023",
+        "Description": "Tour de France 2023 to gra sportowa symuluj\u0105ca s\u0142ynne tytu\u0142owe zawody kolarskie. Produkcja realistycznie odwzorowuje t\u0119 rywalizacj\u0119, pozwalaj\u0105c zar\u00f3wno na pokierowanie pojedynczym kolarzem, jak i ca\u0142\u0105 dru\u017cyn\u0105.  W por\u00f3wnaniu z poprzednimi ods\u0142onami poprawiono m.in. AI oraz fizyk\u0119 jazdy.",
+        "CoverPath": "/galeria/gry13/200/-1824025421.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-06-08",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Cyanide Studio",
+        "Publisher": "Nacon / Bigben Interactive"
+    },
+    {
+        "Name": "Tiny Football",
+        "Description": "Po\u015bwi\u0119cona pi\u0142ce no\u017cnej gra sportowa, nawi\u0105zuj\u0105ca do tuz\u00f3w gatunku z wczesnych lat 90. ubieg\u0142ego wieku. W Tiny Football znajdziemy 64 dru\u017cyny, a kontrol\u0119 nad zawodnikiem wsp\u00f3\u0142dzielimy z SI. Tytu\u0142 pozwala na zabaw\u0119 w pojedynk\u0119 lub na multiplayerow\u0105 rozgrywk\u0119.",
+        "CoverPath": "/galeria/gry13/200/1034090375.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-07-20",
+        "Platform": "PC",
+        "Developer": "Martyn Bissett",
+        "Publisher": "MicroProse"
+    },
+    {
+        "Name": "Madden NFL 24",
+        "Description": "Madden NFL 24 to kolejna cz\u0119\u015b\u0107 najpopularniejszej serii gier sportowych o futbolu ameryka\u0144skim. W por\u00f3wnaniu z poprzedni\u0105 ods\u0142on\u0105 poprawiono grafik\u0119 oraz zaimplementowano liczne ulepszenia sterowanie, mechaniki oraz sztucznej inteligencji.",
+        "CoverPath": "/galeria/gry13/200/553340843.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-08-18",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "EA Tiburon",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "EA Sports PGA Tour",
+        "Description": "EA Sports PGA Tour to pierwszy od 2014 roku symulator golfa opracowany przez Electronic Arts. Podczas zabawy mo\u017cemy rozegra\u0107 zawody na szeregu rzeczywistych p\u00f3\u0142 i stan\u0105\u0107 do walki z gwiazdami tego sportu.",
+        "CoverPath": "/galeria/gry13/200/-2125340687.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-04-07",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "EA Sports",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "AEW: Fight Forever",
+        "Description": "AEW: Fight Forever to wrestligowa gra od weteran\u00f3w produkcji o tym sporcie - Yuke's. Rozgrywka oferuje widowiskowe walki na ringu w wielu trybach, a tak\u017ce r\u00f3\u017cnorodne minigry.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1908741562.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-06-29",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Yuke's",
+        "Publisher": "THQ Nordic / Nordic Games"
+    },
+    {
+        "Name": "90 Minute Fever",
+        "Description": "Zrealizowany w konwencji MMO menad\u017cer pi\u0142karski debiutuj\u0105cego studia Isokron, kt\u00f3ry w odr\u00f3\u017cnieniu od typowych przedstawicieli gatunku pokroju Football Managera skupia si\u0119 wy\u0142\u0105cznie na pojedynkach pomi\u0119dzy graczami. Produkcja pozwala stworzy\u0107 od podstaw w\u0142asny klub, a nast\u0119pnie ruszy\u0107 z nim na podb\u00f3j pi\u0142karskiego \u015bwiata, ustalaj\u0105c sk\u0142ad oraz taktyk\u0119 i dbaj\u0105c o wszelkie kluczowe aspekty funkcjonowania klubu.",
+        "CoverPath": "/galeria/gry13/200/8174920.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-09-01",
+        "Platform": "PC",
+        "Developer": "Isokron",
+        "Publisher": "Isokron"
+    },
+    {
+        "Name": "Super Mega Baseball 4",
+        "Description": "Czwarta cz\u0119\u015b\u0107 serii zr\u0119czno\u015bciowych gier sportowych, po\u015bwi\u0119conych baseballowi. Najwi\u0119ksz\u0105 nowo\u015bci\u0105 wprowadzon\u0105 w Super Mega Baseball 4 jest ponad 200 by\u0142ych gwiazd baseballu, kt\u00f3re do\u0142\u0105czaj\u0105 do fikcyjnych zawodnik\u00f3w Super Mega League All-Stars.",
+        "CoverPath": "/galeria/gry13/200/133069921.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-06-02",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Metalhead Software",
+        "Publisher": "EA Sports"
+    },
+    {
+        "Name": "MLB: The Show 23",
+        "Description": "Osiemnasta ods\u0142ona sportowego cyklu opartego na licencji ameryka\u0144skiej ligi bejsbolowej. MLB: The Show 23 pozwala zar\u00f3wno na bezpo\u015bredni udzia\u0142 w meczach, jak i zarz\u0105dzanie dru\u017cyn\u0105. Tw\u00f3rcy umo\u017cliwili r\u00f3wnie\u017c mi\u0119dzyplatformow\u0105 rozgrywk\u0119.",
+        "CoverPath": "/galeria/gry13/200/879636453.jpg",
+        "Category": "Sportowe",
+        "ReleaseDate": "2023-03-28",
+        "Platform": "PS5, XSX, PS4, XONE, Switch",
+        "Developer": "San Diego Studio",
+        "Publisher": "Sony Interactive Entertainment"
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "Name": "Baldur's Gate 3",
+        "Description": "Trzecia cz\u0119\u015b\u0107 kultowej serii gier RPG, opracowana przez zesp\u00f3\u0142 Larian Studios. Akcja gry Baldur\u2019s Gate 3 toczy si\u0119 oko\u0142o sto lat po wydarzeniach z Baldur\u2019s Gate II: Thron Bhaala. W\u015br\u00f3d najwa\u017cniejszych zmian znalaz\u0142 si\u0119 turowy system walki. Poza tym autorzy zmodyfikowali mi\u0119dzy innymi system dialog\u00f3w i zasady rozwoju dru\u017cyny.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-2127351312.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-08-03",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Larian Studios",
+        "Publisher": "Larian Studios"
+    },
+    {
+        "Name": "Starfield",
+        "Description": "Opracowana przez firm\u0119 Bethesda Softworks gra RPG, pozwalaj\u0105ca nam wcieli\u0107 si\u0119 w kosmicznych podr\u00f3\u017cnik\u00f3w. Starfield jest pierwsz\u0105 od dwudziestu pi\u0119ciu lat pozycj\u0105 z katalogu wydawniczego firmy, kt\u00f3ra reprezentuje zupe\u0142nie now\u0105 mark\u0119.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/603974437.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-09-06",
+        "Platform": "PC, XSX",
+        "Developer": "Bethesda Softworks",
+        "Publisher": "Bethesda Softworks"
+    },
+    {
+        "Name": "Colony Ship",
+        "Description": "Taktyczne izometryczne RPG w klimatach dystopijnego science fiction od tw\u00f3rc\u00f3w Age of Decadence. W Colony Ship przemierzamy wn\u0119trze ogromnego statku wys\u0142anego z Ziemi z dawno zapomnian\u0105 misj\u0105. Poznajemy historie jednostki oraz jej mieszka\u0144c\u00f3w i podejmujemy trudne decyzje.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/438504703.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-09",
+        "Platform": "PC",
+        "Developer": "Iron Tower",
+        "Publisher": "Iron Tower"
+    },
+    {
+        "Name": "Lords of the Fallen",
+        "Description": "Gra RPG akcji TPP, b\u0119d\u0105ca rebootem serii Lords of the Fallen. W The Lords of the Fallen wcielamy si\u0119 w krzy\u017cowca, kt\u00f3rego zadaniem jest obalenie demonicznego b\u00f3stwa \u2013 Adyra. Produkcja zosta\u0142a opracowana przez nale\u017c\u0105ce do firmy CI Games studio Hexworks.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/707142031.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-10-13",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Hexworks",
+        "Publisher": "CI Games / City Interactive"
+    },
+    {
+        "Name": "Dziedzictwo Hogwartu",
+        "Description": "Hogwarts Legacy to trzecioosobowa gra RPG akcji z otwartym \u015bwiatem, kt\u00f3ra zosta\u0142a osadzona w uniwersum Harry\u2019ego Pottera. Wcielamy si\u0119 w m\u0142odego czarodzieja (lub czarodziejk\u0119), kt\u00f3ry w XIX wieku trafia do tytu\u0142owej szko\u0142y magii i czarodziejstwa.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/85378531.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-02-10",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Avalanche Software",
+        "Publisher": "Warner Bros. Games"
+    },
+    {
+        "Name": "Diablo IV",
+        "Description": "Diablo 4 to RPG typu hack-n-slash od studia Blizzard Entertainment. Gracz wybiera jedn\u0105 z kilku dost\u0119pnych postaci, a nast\u0119pnie wyrusza w \u015bwiat, aby walczy\u0107 z hordami potwor\u00f3w. Gra powraca do mrocznego klimatu pierwszych dw\u00f3ch ods\u0142on i k\u0142adzie du\u017cy nacisk na aspekt sieciowy.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/433554046.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-06-06",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Blizzard Entertainment",
+        "Publisher": "Blizzard Entertainment"
+    },
+    {
+        "Name": "Achilles: Legends Untold",
+        "Description": "Izometryczna gra RPG akcji, w kt\u00f3rej jako Achilles trafiamy w sam \u015brodek konfliktu mi\u0119dzy Aresem i Hadesem. Achilles: Legends Untold pozwala na zabaw\u0119 w pojedynk\u0119 lub w trybie wsp\u00f3\u0142pracy. Tytu\u0142 jest dzie\u0142em polskiego studia Dark Point Games.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1047009703.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-02",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Dark Point Games",
+        "Publisher": "Dark Point Games"
+    },
+    {
+        "Name": "Dark Envoy",
+        "Description": "Gra RPG autorstwa polskiego studia Event Horizon \u2013 autor\u00f3w ciep\u0142o przyj\u0119tego Tower of Time. W Dark Envoy trafiamy do \u015bwiata, gdzie magia \u015bciera si\u0119 z technologi\u0105; to, jak potoczy si\u0119 historia przemierzaj\u0105cych go bohater\u00f3w, zale\u017cy od dokonywanych przez nas wybor\u00f3w. Produkcj\u0119 mo\u017cna uko\u0144czy\u0107 w pojedynk\u0119 b\u0105d\u017a w towarzystwie drugiego gracza, a dodatkowo na sprawdzenie czeka specjalny modu\u0142 PvP.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/603051328.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-10-24",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Event Horizon",
+        "Publisher": "Twin Sails Interactive / Asmodee Digital"
+    },
+    {
+        "Name": "For the King II",
+        "Description": "Druga ods\u0142ona cyklu produkcji z pogranicza roguelike\u2019\u00f3w, strategii turowych i jRPG-\u00f3w. W For the King II ponownie trafiamy do krainy Fahrul i przejmujemy kontrol\u0119 nad dru\u017cyn\u0105, kt\u00f3ra tym razem stara si\u0119 po\u0142o\u017cy\u0107 kres sprawowanym przez kr\u00f3low\u0105 rz\u0105dom twardej r\u0119ki.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/435488812.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-02",
+        "Platform": "PC",
+        "Developer": "IronOak Games",
+        "Publisher": "Curve Games / Curve Digital"
+    },
+    {
+        "Name": "Wartales",
+        "Description": "Tytu\u0142 z pogranicza strategii i RPG-\u00f3w, kt\u00f3ry przenosi nas do ponurego uniwersum inspirowanego \u015bredniowieczem. W Wartales stajemy na czele grupy najemnik\u00f3w, wraz z kt\u00f3r\u0105 przemierzamy \u015bwiat, walczymy z przeciwnikami i paramy si\u0119 rozmaitymi zaj\u0119ciami.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/603241078.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-04-12",
+        "Platform": "PC, XSX, XONE, Switch",
+        "Developer": "Shiro Games",
+        "Publisher": "Shiro Games"
+    },
+    {
+        "Name": "Star Ocean: The Second Story R",
+        "Description": "Star Ocean: The Second Story R to jRPG akcji stanowi\u0105ce remake drugiej cz\u0119\u015bci klasycznego cyklu, \u0142\u0105cz\u0105cego element science-fiction i fantasy. W por\u00f3wnaniu z pierwowzorem ulepszono zar\u00f3wno opraw\u0119 audiowizualn\u0105, jak i rozgrywk\u0119.",
+        "CoverPath": "/galeria/gry13/200/1227395750.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-02",
+        "Platform": "PC, PS5, PS4, Switch",
+        "Developer": "Square Enix / Gemdrops",
+        "Publisher": "Square Enix"
+    },
+    {
+        "Name": "Lies of P",
+        "Description": "Mroczna adaptacja powie\u015bci Pinokio, zrealizowana w formie produkcji typu soulslike. W Lies of P wcielamy si\u0119 w b\u0119d\u0105cego mechaniczn\u0105 lalk\u0105 bohatera, kt\u00f3ry szukaj\u0105c pana Geppetta, przemierza pos\u0119pne miasto Krat i stawia czo\u0142a czyhaj\u0105cym tam na niego koszmarom.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/17806296.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-09-18",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Round8 Studio",
+        "Publisher": "Neowiz"
+    },
+    {
+        "Name": "Super Mario RPG",
+        "Description": "Remake kultowej gry o tym samym tytule wydanej w 1996 roku. Super Mario RPG koncentruje si\u0119 na turowych starciach oraz eksploracji nawi\u0105zuj\u0105cej do klasycznych platform\u00f3wek. Tym razem Mario \u0142\u0105czy si\u0142y z Bowserem, by pokona\u0107 wi\u0119ksze z\u0142o.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-1853539437.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-17",
+        "Platform": "Switch",
+        "Developer": "Nintendo",
+        "Publisher": "Nintendo"
+    },
+    {
+        "Name": "Cyberpunk 2077: Widmo wolno\u015bci",
+        "Description": "Pierwsze i prawdopodobnie jedyne DLC do s\u0142ynnej polskiej gry RPG akcji FPP z 2020 roku. Utrzymany w klimatach thrillera szpiegowskiego dodatek Cyberpunk 2077: Phantom Liberty zosta\u0142 opracowany przez studio CD Projekt RED.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1031098359.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-09-26",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "CD Projekt RED",
+        "Publisher": "CD Projekt RED"
+    },
+    {
+        "Name": "Coral Island",
+        "Description": "Coral Island jest sandboksowym \"symulatorem\" rolnika czerpi\u0105cym inspiracj\u0119 m.in. z cyklu Harvest Moon, a tak\u017ce takich gier jak Stardew Valley czy My Time at Portia. Produkcja pozwala zamieszka\u0107 na urokliwej wyspie na rafie koralowej.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1143840203.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-14",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Stairway Games",
+        "Publisher": "Humble Games"
+    },
+    {
+        "Name": "Final Fantasy XVI",
+        "Description": "Szesnasta g\u0142\u00f3wna cz\u0119\u015b\u0107 bestsellerowej serii japo\u0144skich RPG-\u00f3w. W Final Fantasy XVI trafiamy do fantastycznego kr\u00f3lestwa Valisthea, a g\u0142\u00f3wnym bohaterem gry jest Clive Rosfield. Pod wzgl\u0119dem mechaniki produkcja pod\u0105\u017ca \u015bcie\u017ck\u0105 wytyczon\u0105 przez pi\u0119tnast\u0105 ods\u0142on\u0119 cyklu.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/85173265.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-06-22",
+        "Platform": "PC, PS5",
+        "Developer": "Square Enix",
+        "Publisher": "Square Enix"
+    },
+    {
+        "Name": "Sands of Aura",
+        "Description": "Gra RPG akcji, w kt\u00f3rej przemierzamy postapokaliptyczny \u015bwiat fantasy i toczymy dynamiczne starcia z przeciwnikami. W Sands of Aura r\u00f3wnie wa\u017cne, co dzier\u017cenie odpowiedniego or\u0119\u017ca, jest wykazywanie si\u0119 refleksem, zr\u0119czno\u015bci\u0105 i spostrzegawczo\u015bci\u0105 podczas walki.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/696203640.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-10-27",
+        "Platform": "PC",
+        "Developer": "Chashu Entertainment",
+        "Publisher": "Freedom Games "
+    },
+    {
+        "Name": "Tales of Arise: Beyond the Dawn",
+        "Description": "Beyond the Dawn to pierwszy du\u017cy dodatek do japo\u0144skiego RPG Tales of Arise, w kt\u00f3rym mamy okazj\u0119 ponownie eksplorowa\u0107 poznany w g\u0142\u00f3wnej grze \u015bwiat po wydarzeniach z \u201epodstawki\u201d. Przychodzi nam wp\u0142yn\u0105\u0107 na los Nazamil, c\u00f3rki dhananki i rena\u0144skiego lorda, niejako wykl\u0119tej przez swoje pochodzenie.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-1853396000.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-09",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Bandai Namco Entertainment",
+        "Publisher": "Bandai Namco Entertainment"
+    },
+    {
+        "Name": "Dave the Diver",
+        "Description": "Pikselowa produkcja przygodowa z elementami charakterystycznymi dla gier ekonomicznych i RPG. W Dave the Diver wcielamy si\u0119 w rol\u0119 nurka, kt\u00f3ry za dnia przemierza morskie g\u0142\u0119biny, a wieczorami zajmuje si\u0119 prowadzeniem restauracji sushi.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1289355078.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-06-28",
+        "Platform": "PC, Switch",
+        "Developer": "Mintrocket",
+        "Publisher": "Mintrocket"
+    },
+    {
+        "Name": "The Iron Oath",
+        "Description": "Taktyczna gra RPG osadzona w ponurym uniwersum fantasy. Gracz staje na czele gildii werbuj\u0105cej bohater\u00f3w i wynajmuj\u0105cej ich us\u0142ugi za odpowiedni\u0105 zap\u0142at\u0105. Podczas zabawy podr\u00f3\u017cujemy przez obszerny \u015bwiat podzielony mi\u0119dzy kilka nacji, eksplorujemy losowo generowane podziemia, podejmujemy si\u0119 zada\u0144, rozwijamy postacie oraz przede wszystkim regularnie toczymy bitwy za pomoc\u0105 rozbudowanego turowego systemu walki.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/519248218.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-02",
+        "Platform": "PC",
+        "Developer": "Curious Panda Games",
+        "Publisher": "Humble Games"
+    },
+    {
+        "Name": "Warhammer 40,000: Rogue Trader",
+        "Description": "Warhammer 40,000: Rogue Trader to klasycznie zrealizowana gra RPG z turowym systemem walki. W niej wcielamy si\u0119 w kosmicznego kupca i odkrywc\u0119, kt\u00f3rego zadaniem jest eksplorowanie ma\u0142o zbadanych rejon\u00f3w galaktyki oraz poszerzenie granic imperium ludzkiego.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1567477328.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-12-07",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Owlcat Games",
+        "Publisher": "Owlcat Games"
+    },
+    {
+        "Name": "Cuisineer",
+        "Description": "Gra RPG akcji, wzbogacona o elementy roguelike\u2019a i symulatora restauracji. W Cuisineer wcielamy si\u0119 w Pom, kt\u00f3ra po odziedziczeniu rodzinnej restauracji musi przywr\u00f3ci\u0107 jej dawny splendor. Dziewczyna przemierza wi\u0119c \u015bwiat i stawia czo\u0142a niebezpiecze\u0144stwom, po drodze zdobywaj\u0105c przepisy i sk\u0142adniki.",
+        "CoverPath": "/galeria/gry13/200/-1916251593.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-09",
+        "Platform": "PC",
+        "Developer": "BattleBrew Productions",
+        "Publisher": "XSEED Games"
+    },
+    {
+        "Name": "Atlas Fallen",
+        "Description": "Gra RPG akcji TPP, opracowana przez studio Deck13 Interactive \u2013 wsp\u00f3\u0142tw\u00f3rc\u00f3w Lords of the Fallen i autor\u00f3w serii The Surge. W Atlas Fallen wcielamy si\u0119 w bohater\u00f3w, kt\u00f3rzy przemierzaj\u0105 pustynny \u015bwiat fantasy i stawiaj\u0105 czo\u0142a \u017cyj\u0105cym w nim potworom.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/448570718.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-08-10",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Deck13 Interactive",
+        "Publisher": "Focus Entertainment / Focus Home Interactive"
+    },
+    {
+        "Name": "Wo Long: Fallen Dynasty",
+        "Description": "Wo Long: Fallen Dynasty to RPG akcji autorstwa studia Team Ninja. Gra osadzona jest w fantastycznej wersji staro\u017cytnych Chin, a zabawa polega g\u0142\u00f3wnie na walce z lud\u017ami i potworami za pomoc\u0105 bogatego arsena\u0142u broni, magii oraz przy wsparciu Boskich Bestii.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1567832781.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-03-03",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Team Ninja",
+        "Publisher": "Koei Tecmo"
+    },
+    {
+        "Name": "My Time at Sandrock",
+        "Description": "My Time at Sandrock jest sandboksow\u0105 gr\u0105 RPG b\u0119d\u0105c\u0105 kontynuacj\u0105 udanego My Time at Portia. Produkcja poprawia i pog\u0142\u0119bia szereg pomys\u0142\u00f3w i mechanik z pierwszej gry. Za jej opracowanie odpowiada firma Pathea Games.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/981197203.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-02",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Pathea Games",
+        "Publisher": "Focus Entertainment / Focus Home Interactive"
+    },
+    {
+        "Name": "Gothic II Complete Classic",
+        "Description": "Kompletne wydanie RPG-a akcji TPP pod tytu\u0142em Gothic II, zawieraj\u0105ce podstawow\u0105 wersj\u0119 gry oraz dodatek Noc Kruka. Wydawc\u0105 Gothic II Complete Classic jest firma THQ Nordic.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/705875437.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-29",
+        "Platform": "Switch",
+        "Developer": "THQ Nordic / Nordic Games",
+        "Publisher": "THQ Nordic / Nordic Games"
+    },
+    {
+        "Name": "Darkest Dungeon II",
+        "Description": "Druga ods\u0142ona cyklu mrocznych gier RPG z elementami podgatunk\u00f3w roguelike i dungeon crawler, zapocz\u0105tkowanego w 2016 roku. Fabu\u0142a Darkest Dungeon II koncentruje si\u0119 na apokalipsie i trudach d\u0142ugiej, wyczerpuj\u0105cej podr\u00f3\u017cy. Gracze musz\u0105 wi\u0119c przemierza\u0107 ponure lokacje, stawiaj\u0105c czo\u0142a czyhaj\u0105cym tam niebezpiecze\u0144stwom i dbaj\u0105c o stan emocjonalny bohater\u00f3w.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-1941306734.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-05-08",
+        "Platform": "PC",
+        "Developer": "Red Hook Studios",
+        "Publisher": "Red Hook Studios"
+    },
+    {
+        "Name": "Pathfinder: Wrath of the Righteous - The Lord of Nothing",
+        "Description": "Pi\u0105ty du\u017cy dodatek do gry RPG Pathfinder: Wrath of the Righteous. Rozszerzenie The Lord of Nothing stanowi bezpo\u015bredni\u0105 kontynuacj\u0119 DLC o tytule Through the Ashes. Poza nowym w\u0105tkiem fabularnym wprowadza ono dw\u00f3jk\u0119 towarzyszy, a tak\u017ce unikalne cechy i zakl\u0119cia.",
+        "CoverPath": "/galeria/gry13/200/2121557562.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-21",
+        "Platform": "PC, PS4, XONE, Switch",
+        "Developer": "Owlcat Games",
+        "Publisher": "Owlcat Games"
+    },
+    {
+        "Name": "Sea of Stars",
+        "Description": "Oldskulowa gra RPG b\u0119d\u0105ca prequelem ciep\u0142o przyj\u0119tego The Messenger. Cho\u0107 Sea of Stars czerpie gar\u015bciami z kultowych dzie\u0142 z epoki 8 i 16 bit\u00f3w, wnosi do gatunku powiew \u015bwie\u017co\u015bci w postaci element\u00f3w zr\u0119czno\u015bciowych czy r\u00f3\u017cnych mechanik urozmaicaj\u0105cych turowe potyczki.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/439153921.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-08-29",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Sabotage",
+        "Publisher": "Sabotage"
+    },
+    {
+        "Name": "The Lamplighters League",
+        "Description": "The Lamplighters League to taktyczna gra RPG z turow\u0105 walk\u0105, infiltracj\u0105 w czasie rzeczywistym oraz zarz\u0105dzaniem baz\u0105. Dowodzimy dru\u017cyn\u0105 nie-do-ko\u0144ca bohater\u00f3w z tytu\u0142owej Ligi i staramy si\u0119 powstrzyma\u0107 z\u0142owrogi kult przed przej\u0119ciem w\u0142adzy nad \u015bwiatem.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/436749296.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-10-03",
+        "Platform": "PC, XSX",
+        "Developer": "Harebrained Schemes",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "Miasma Chronicles",
+        "Description": "Gra taktyczna z elementami RPG, opracowana przez studio The Bearded Ladies \u2013 autor\u00f3w ciep\u0142o przyj\u0119tego Mutant Year Zero: Road to Eden. W Miasma Chronicles przejmujemy kontrol\u0119 nad dru\u017cyn\u0105 przemierzaj\u0105c\u0105 postapokaliptyczny \u015bwiat opanowany przez tajemnicz\u0105, brutaln\u0105 si\u0142\u0119.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1046196531.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-05-23",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "The Bearded Ladies",
+        "Publisher": "505 Games"
+    },
+    {
+        "Name": "Dredge",
+        "Description": "Dredge to gra RPG z elementami horroru, w kt\u00f3rej kierujemy pocz\u0105tkuj\u0105cym rybakiem. Podczas zabawy musimy zadba\u0107 o biznes oraz radzi\u0107 sobie nie tylko z si\u0142ami natury, ale r\u00f3wnie\u017c z potworami oraz kultystami.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1045465609.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-03-30",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Black Salt Games",
+        "Publisher": "Team17"
+    },
+    {
+        "Name": "World of Horror",
+        "Description": "World of Horror to inspirowana tw\u00f3rczo\u015bci\u0105 Junjiego Ito, unikatowa mieszanka retro RPG z przygod\u00f3wk\u0105 z elementami horroru. Trafiamy do nadmorskiego japo\u0144skiego miasteczka i staramy si\u0119 odkry\u0107 prawd\u0119 o przera\u017caj\u0105cych wydarzeniach, zwiastuj\u0105cych nadej\u015bcie pradawnych bog\u00f3w.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/595269843.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-10-19",
+        "Platform": "PC, PS4, Switch",
+        "Developer": "Panstasz",
+        "Publisher": "Ysbryd Games"
+    },
+    {
+        "Name": "Endless Dungeon",
+        "Description": "Endless Dungeon jest to roguelike\u2019owa gra RPG utrzymana w klimatach sci-fi od studia Amplitude. Tytu\u0142 przenosi nas do powstaj\u0105cego od wielu lat (i gier) universum Endless, znanego chocia\u017cby z Endless Space lub Endless Legend.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/704603109.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-10-19",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Amplitude Studios",
+        "Publisher": "SEGA"
+    },
+    {
+        "Name": "Backpack Hero",
+        "Description": "Tytu\u0142 z pogranicza dungeon crawler\u00f3w, roguelike\u2019\u00f3w i gier logicznych. W Backpack Hero przemierzamy klimatyczne lokacje i toczymy turowe potyczki, podczas kt\u00f3rych kluczem do sukcesu jest odpowiednie rozmieszczenie przedmiot\u00f3w znajduj\u0105cych si\u0119 w naszym plecaku.",
+        "CoverPath": "/galeria/gry13/200/-1301694468.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-11-14",
+        "Platform": "PC, Switch",
+        "Developer": "Jaspel",
+        "Publisher": "Jaspel"
+    },
+    {
+        "Name": "Fate/Samurai Remnant",
+        "Description": "Fate/Samurai Remnant to RPG akcji opowiadaj\u0105ce o rywalizacji mag\u00f3w w \u015bredniowiecznej Japonii. Rozgrywka koncentruje si\u0119 g\u0142\u00f3wnie na zr\u0119czno\u015bciowej walce. Gra stanowi cz\u0119\u015b\u0107 marki zapocz\u0105tkowanej przez Fate/Stay Night z 2004 roku.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-2038722156.jpg",
+        "Category": "RPG",
+        "ReleaseDate": "2023-09-29",
+        "Platform": "PC, PS5, PS4, Switch",
+        "Developer": "Omega Force",
+        "Publisher": "Koei Tecmo"
+    }
+]

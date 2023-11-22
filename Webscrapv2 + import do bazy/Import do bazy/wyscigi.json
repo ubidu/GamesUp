@@ -1,0 +1,202 @@
+[
+    {
+        "Name": "WRC",
+        "Description": "EA Sports WRC to pierwszy symulator rajd\u00f3w samochodowych opracowany przez studio Codemasters z u\u017cyciem oficjalnej licencji Rajdowych Mistrzostw \u015awiata (WRC). Gra stanowi przy tym nieformaln\u0105 kontynuacj\u0119 serii DiRT Rally i cechuje si\u0119 r\u00f3wnie wysokim realizmem.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1126069015.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-11-03",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Codemasters",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "Forza Motorsport",
+        "Description": "\u00d3sma ods\u0142ona kultowej serii gier wy\u015bcigowych, stanowi\u0105ca jej swoisty restart. Forza Motorsport zosta\u0142a stworzona niemal w ca\u0142o\u015bci od podstaw przez Turn 10 Studios. W grze wyst\u0119puje bardziej zaawansowana fizyka i grafika, a tak\u017ce szereg innych nowo\u015bci.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1566954234.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-10-10",
+        "Platform": "PC, XSX",
+        "Developer": "Turn 10 Studios",
+        "Publisher": "Xbox Game Studios / Microsoft Studios"
+    },
+    {
+        "Name": "The Crew Motorfest",
+        "Description": "The Crew Motorfest to osadzona na Hawajach poboczna ods\u0142ona cyklu sandboksowych gier wy\u015bcigowych The Crew, za kt\u00f3rym stoi firma Ubisoft. Tym razem tw\u00f3rcy rzucili r\u0119kawic\u0119 serii Forza Horizon, k\u0142ad\u0105c wi\u0119kszy nacisk na jazd\u0119 samochodami sportowymi i terenowymi.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/17619640.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-09-14",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Ivory Tower",
+        "Publisher": "Ubisoft"
+    },
+    {
+        "Name": "F1 23",
+        "Description": "F1 23 to czternasta ods\u0142ona serii gier wy\u015bcigowych studia Codemasters na licencji Formu\u0142y 1. Wcielamy si\u0119 w kierowc\u0119 startuj\u0105cego w barwach jednego z oficjalnych zespo\u0142\u00f3w i pr\u00f3bujemy si\u0119gn\u0105\u0107 po tytu\u0142 mistrza \u015bwiata w sezonie 2023.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1827212296.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-06-16",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Codemasters",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "DreamWorks All-Star Kart Racing",
+        "Description": "Wy\u015bcigi gokart\u00f3w, oparte na licencji wytw\u00f3rni DreamWorks Animation. W DreamWorks All-Star Kart Racing wcielamy si\u0119 w bohater\u00f3w popularnych kresk\u00f3wek i bierzemy udzia\u0142 w rywalizacji na torach. Tytu\u0142 pozwala bawi\u0107 si\u0119 w pojedynk\u0119, a tak\u017ce oferuje lokalny oraz internetowy tryb multiplayer.",
+        "CoverPath": "/galeria/gry13/200/1696249765.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-11-03",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Bamtang",
+        "Publisher": "GameMill Entertainment"
+    },
+    {
+        "Name": "RIDE 5",
+        "Description": "RIDE 5 to pi\u0105ta ods\u0142ona serii wy\u015bcigowych gier motocyklowych studia Milestone, kt\u00f3re oferuj\u0105 wszechstronne do\u015bwiadczenie dla entuzjast\u00f3w maszyn i tras r\u00f3\u017cnego rodzaju. Jako pierwsza zosta\u0142a wydana tylko na platformy dziewi\u0105tej generacji, dzi\u0119ki czemu oferuje rozmaite ulepszenia.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/439030750.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-08-24",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Milestone",
+        "Publisher": "Milestone"
+    },
+    {
+        "Name": "Forza Horizon 5: Rally Adventure",
+        "Description": "Rally Adventure to drugi du\u017cy dodatek do gry wy\u015bcigowej Forza Horizon 5. Trafiamy w nim na now\u0105 map\u0119 w Meksyku (Sierra Nueva), gdzie bierzemy udzia\u0142 w karierze koncentruj\u0105cej si\u0119 na szeroko poj\u0119tych rajdach, zar\u00f3wno drogowych, jak i off-roadowych.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1746781359.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-03-29",
+        "Platform": "PC, XSX, XONE",
+        "Developer": "Playground Games",
+        "Publisher": "Xbox Game Studios / Microsoft Studios"
+    },
+    {
+        "Name": "TT Isle of Man: Ride on the Edge 3",
+        "Description": "TT Isle of Man: Ride on the Edge 3 to trzecia gra wy\u015bcigowa na licencji najtrudniejszych motocyklowych zawod\u00f3w \u015bwiata na tytu\u0142owej Wyspie Man. G\u0142\u00f3wn\u0105 nowo\u015bci\u0105 w \u201etr\u00f3jce\u201d jest otwarty \u015bwiat, dost\u0119pny obok tradycyjnych tras. Na uwag\u0119 zas\u0142uguj\u0105 te\u017c bardziej zaawansowana fizyka i rozbudowane opcje modyfikacji maszyn.",
+        "CoverPath": "/galeria/gry13/200/-1919952546.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-05-11",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Kylotonn / KT Racing",
+        "Publisher": "Nacon / Bigben Interactive"
+    },
+    {
+        "Name": "LEGO 2K Drive",
+        "Description": "Gra wy\u015bcigowa z otwartym \u015bwiatem, oparta na licencji klock\u00f3w LEGO. W LEGO 2K Drive wcielamy si\u0119 w rol\u0119 kierowcy wy\u015bcigowego, kt\u00f3rego celem jest zdobycie Podniebnego Pucharu, a tym samym \u2013 zostanie gwiazd\u0105 Klockolandii. Tytu\u0142 zosta\u0142 opracowany przez studio Visual Concepts \u2013 tw\u00f3rc\u00f3w serii NBA 2K.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1827654328.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-05-19",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Visual Concepts",
+        "Publisher": "2K Games"
+    },
+    {
+        "Name": "Overpass 2",
+        "Description": "Overpass 2 to kontynuacja gry o tym samym tytule z 2020 roku. Zn\u00f3w bierzemy udzia\u0142 w do\u015b\u0107 realistycznych terenowych wy\u015bcigach i rajdach prze\u0142ajowych, kieruj\u0105c licencjonowanymi pojazdami typu ATV czy UTV.",
+        "CoverPath": "/galeria/gry13/200/1166828718.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-09-28",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Neopica",
+        "Publisher": "Nacon / Bigben Interactive"
+    },
+    {
+        "Name": "Rev to Vertex",
+        "Description": "Rev to Vertex to niezale\u017cna gra wy\u015bcigowa z symulacyjnym zaci\u0119ciem. Bierzemy w niej udzia\u0142 w wy\u015bcigach ulicznych i g\u00f3rskich (hill climb) g\u0142\u00f3wnie na wiernie odtworzonych drogach wyspy Hong Kong, kieruj\u0105c samochodami sportowymi i wyczynowymi.",
+        "CoverPath": "/galeria/gry13/200/1517419328.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-12-05",
+        "Platform": "PC",
+        "Developer": "Plutonization",
+        "Publisher": "Z-Challenger"
+    },
+    {
+        "Name": "Hot Wheels Unleashed 2: Turbocharged",
+        "Description": "Hot Wheels Unleashed 2: Turbocharged to kontynuacja zr\u0119czno\u015bciowej gry wy\u015bcigowej studia Milestone z 2021 roku. \u201eDw\u00f3jka\u201d zawiera wi\u0119cej licencjonowanych resorak\u00f3w, a tak\u017ce oferuje r\u00f3\u017cnorakie urozmaicenia rozgrywki, np. opcj\u0119 wykonywania podskok\u00f3w samochodzikami.",
+        "CoverPath": "/galeria/gry13/200/2122041656.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-10-19",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Milestone",
+        "Publisher": "Milestone"
+    },
+    {
+        "Name": "Disney Speedstorm",
+        "Description": "Gra wy\u015bcigowa, w kt\u00f3rej wcielamy si\u0119 w bohater\u00f3w film\u00f3w Disneya oraz Pixara (jak kapitan Jack Sparrow, Mulan, Myszka Miki czy Sulley) i bierzemy udzia\u0142 w szalonej walce o zwyci\u0119stwo. W Disney Speedstorm mo\u017cna bawi\u0107 si\u0119 w pojedynk\u0119 lub przez Internet.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1125927703.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-09-28",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Gameloft",
+        "Publisher": "Gameloft"
+    },
+    {
+        "Name": "MotoGP 23",
+        "Description": "Po\u015bwi\u0119cona motocyklom gra wy\u015bcigowa od studia Milestone. W MotoGP 23 odtworzono sezon 2023 Motocyklowych Mistrzostw \u015awiata, a opr\u00f3cz rozbudowanej kariery produkcja oferuje tryb multiplayer oraz rozbudowane samouczki i asysty dla nowicjuszy.",
+        "CoverPath": "/galeria/gry13/200/1513362390.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-06-08",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Milestone",
+        "Publisher": "Milestone"
+    },
+    {
+        "Name": "Monster Energy Supercross: The Official Videogame 6",
+        "Description": "Monster Energy Supercross: The Official Videogame 6 to kolejna gra wy\u015bcigowa od Milestone na licencji motocyklowych zawod\u00f3w Monster Energy AMA Supercross. G\u0142\u00f3wne nowo\u015bci w \u201esz\u00f3stce\u201d to du\u017ca otwarta mapa Supercross Park i anga\u017c Jeremy\u2019ego McGratha w roli osobistego trenera gracza.",
+        "CoverPath": "/galeria/gry13/200/1003958781.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-03-09",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Milestone",
+        "Publisher": "Milestone"
+    },
+    {
+        "Name": "KartRider: Drift",
+        "Description": "KartRider: Drift to zr\u0119czno\u015bciowa gra wy\u015bcigowa z gokartami w roli g\u0142\u00f3wnej, przeznaczona do zabawy tak w pojedynk\u0119, jak i w trybie multiplayer, r\u00f3wnie\u017c cross-platformowym. Tytu\u0142 oferowany jest w modelu free-to-play. Za produkcj\u0119 odpowiada studio Nexon.",
+        "CoverPath": "/galeria/gry13/200/1085058984.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-01-10",
+        "Platform": "PC, PS4, XONE, AND, iOS",
+        "Developer": "Nexon",
+        "Publisher": "Nexon"
+    },
+    {
+        "Name": "Gigantozaur: Dino Kart",
+        "Description": "Wy\u015bcigi gokart\u00f3w, oparte na licencji serialu animowanego Gigantozaur. W Gigantosaurus: Dino Kart wcielamy si\u0119 w r\u00f3\u017cnorodnych bohater\u00f3w i zasiadamy za sterami gokart\u00f3w, by walczy\u0107 o zwyci\u0119stwo na trasach rozsianych po ca\u0142ej Kredalii. Tytu\u0142 oferuje mo\u017cliwo\u015b\u0107 multiplayerowej gry na podzielonym ekranie.",
+        "CoverPath": "/galeria/gry13/200/393631250.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-02-17",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "3DClouds",
+        "Publisher": "Outright Games"
+    },
+    {
+        "Name": "F-Zero 99",
+        "Description": "Specjalna wersja F-Zero, czyli gry wy\u015bcigowej z 1990 roku, przygotowana z my\u015bl\u0105 o multiplayerowej zabawie. W F-Zero 99 dziewi\u0119\u0107dziesi\u0119ciu dziewi\u0119ciu graczy zasiada za kierownicami futurystycznych bolid\u00f3w i walczy o zwyci\u0119stwo w szalonych wy\u015bcigach.",
+        "CoverPath": "/galeria/gry13/200/395100750.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-09-14",
+        "Platform": "Switch",
+        "Developer": "Nintendo",
+        "Publisher": "Nintendo"
+    },
+    {
+        "Name": "Hot Wheels: Rift Rally",
+        "Description": "Gra wy\u015bcigowa korzystaj\u0105ca z technologii rzeczywisto\u015bci rozszerzonej. W Hot Wheels: Rift Rally kontrolujemy prawdziwy zdalnie sterowany samoch\u00f3d, kt\u00f3ry je\u017adzi po dowolnej przestrzeni, na ekranie widocznej jako tor pe\u0142en zakr\u0119t\u00f3w, przeszk\u00f3d i power-up\u00f3w.",
+        "CoverPath": "/galeria/gry13/200/-1577641312.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-03-31",
+        "Platform": "PS5, PS4, iOS",
+        "Developer": "Velan Studios",
+        "Publisher": "Velan Studios"
+    },
+    {
+        "Name": "NASCAR Arcade Rush",
+        "Description": "NASCAR Arcade Rush to licencjonowana gra wy\u015bcigowa, kt\u00f3ra ukazuje popularn\u0105 w USA tytu\u0142ow\u0105 dyscyplin\u0119 motosportu w krzywym, zr\u0119czno\u015bciowym zwierciadle. Uwzgl\u0119dnia znane samochody i tory, wzbogacaj\u0105c je np. o dopalacze.",
+        "CoverPath": "/galeria/gry13/200/305862734.jpg",
+        "Category": "Wy\u015bcigi",
+        "ReleaseDate": "2023-09-15",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Team6 Game Studios / Rebel Games",
+        "Publisher": "GameMill Entertainment"
+    }
+]
