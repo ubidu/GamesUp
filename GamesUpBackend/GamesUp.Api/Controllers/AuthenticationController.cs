@@ -5,17 +5,18 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
+using GamesUp.Models;
 
 namespace GamesUp.Controllers;
 
 [ApiController]
 public class AuthenticationController : ApiController
 {
-    private readonly UserManager<IdentityUser> _userManager;
+    private readonly UserManager<User> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     private readonly IConfiguration _configuration;
     
-    public AuthenticationController(UserManager<IdentityUser> userManager, 
+    public AuthenticationController(UserManager<User> userManager, 
         RoleManager<IdentityRole> roleManager, IConfiguration configuration)
     {
         _userManager = userManager;
@@ -38,6 +39,7 @@ public class AuthenticationController : ApiController
         {
             new(ClaimTypes.Name, user.UserName),
             new(ClaimTypes.Email, user.Email),
+            new(ClaimTypes.NameIdentifier, user.Id),
             new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
         
@@ -69,7 +71,7 @@ public class AuthenticationController : ApiController
             });
         }
         
-        IdentityUser user = new()
+        User user = new()
         {
             Email = model.Email,
             SecurityStamp = Guid.NewGuid().ToString(),
@@ -107,7 +109,7 @@ public class AuthenticationController : ApiController
             });
         }
         
-        IdentityUser user = new()
+        User user = new()
         {
             Email = model.Email,
             SecurityStamp = Guid.NewGuid().ToString(),

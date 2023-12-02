@@ -1,20 +1,56 @@
+using System.Security.Claims;
 using System.Text;
+using GamesUp.Models;
 using GamesUp.Persistence;
 using GamesUp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
+    builder.Services.AddSwaggerGen(option =>
+    {
+        option.SwaggerDoc("v1", new OpenApiInfo
+        {
+            Title = "GamesUp API",
+            Version = "v1"
+        });
+        option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+        {
+            In = ParameterLocation.Header,
+            Description = "Please enter token",
+            Name = "Authorization",
+            Type = SecuritySchemeType.Http,
+            BearerFormat = "JWT",
+            Scheme = "bearer"
+        });
+        option.AddSecurityRequirement(new OpenApiSecurityRequirement
+        {
+            {
+                new OpenApiSecurityScheme
+                {
+                    Reference = new OpenApiReference
+                    {
+                        Type=ReferenceType.SecurityScheme,
+                        Id="Bearer"
+                    }
+                },
+                new string[]{}
+            }
+        });
+    });
     builder.Services.AddScoped<IGameService, GameService>();
     builder.Services.AddDbContext<GamesUpDbContext>(options =>
         options.UseNpgsql(builder.Configuration.GetConnectionString("GamesUpDb")));
-    builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    builder.Services.AddIdentity<User, IdentityRole>(options =>
+        {
+            options.ClaimsIdentity.UserIdClaimType = ClaimTypes.NameIdentifier;
+        })
         .AddEntityFrameworkStores<GamesUpDbContext>()
         .AddDefaultTokenProviders();
     builder.Services.AddAuthentication(options =>
