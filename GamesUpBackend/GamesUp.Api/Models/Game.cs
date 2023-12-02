@@ -1,4 +1,5 @@
-﻿using ErrorOr;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using ErrorOr;
 
 namespace GamesUp.Models;
 
@@ -9,11 +10,14 @@ public class Game
     public string Description { get; private set; }
     public string CoverPath { get; private set; }
     public string Category { get; private set; }
+    
+    [Column(TypeName = "Date")]
     public DateTime ReleaseDate { get; private set; }
     public string Platform { get; private set; }
     public string Developer { get; private set; }
     public string Publisher { get; private set; }
     
+
     private Game() {}
 
     private Game(Guid id, string name, string description, string coverPath, string category, DateTime releaseDate,

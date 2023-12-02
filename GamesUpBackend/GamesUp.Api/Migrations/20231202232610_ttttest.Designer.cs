@@ -3,6 +3,7 @@ using System;
 using GamesUp.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace GamesUp.Migrations
 {
     [DbContext(typeof(GamesUpDbContext))]
-    partial class GamesUpDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231202232610_ttttest")]
+    partial class ttttest
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,15 +25,15 @@ namespace GamesUp.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("GamesUp.Models.FavoriteGames", b =>
+            modelBuilder.Entity("FavoriteGames", b =>
                 {
-                    b.Property<Guid>("GameId")
+                    b.Property<Guid>("FavoriteGamesId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("UserId")
                         .HasColumnType("text");
 
-                    b.HasKey("GameId", "UserId");
+                    b.HasKey("FavoriteGamesId", "UserId");
 
                     b.HasIndex("UserId");
 
@@ -96,6 +99,9 @@ namespace GamesUp.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("boolean");
+
+                    b.Property<int>("Karma")
+                        .HasColumnType("integer");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("boolean");
@@ -274,11 +280,11 @@ namespace GamesUp.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("GamesUp.Models.FavoriteGames", b =>
+            modelBuilder.Entity("FavoriteGames", b =>
                 {
                     b.HasOne("GamesUp.Models.Game", null)
                         .WithMany()
-                        .HasForeignKey("GameId")
+                        .HasForeignKey("FavoriteGamesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

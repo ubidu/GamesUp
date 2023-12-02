@@ -3,6 +3,7 @@ using System;
 using GamesUp.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace GamesUp.Migrations
 {
     [DbContext(typeof(GamesUpDbContext))]
-    partial class GamesUpDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231202195914_eh")]
+    partial class eh
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,13 +27,17 @@ namespace GamesUp.Migrations
 
             modelBuilder.Entity("GamesUp.Models.FavoriteGames", b =>
                 {
-                    b.Property<Guid>("GameId")
+                    b.Property<Guid>("FavoriteGamesId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("UserId")
                         .HasColumnType("text");
 
-                    b.HasKey("GameId", "UserId");
+                    b.Property<string>("GameId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("FavoriteGamesId", "UserId");
 
                     b.HasIndex("UserId");
 
@@ -278,7 +285,7 @@ namespace GamesUp.Migrations
                 {
                     b.HasOne("GamesUp.Models.Game", null)
                         .WithMany()
-                        .HasForeignKey("GameId")
+                        .HasForeignKey("FavoriteGamesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

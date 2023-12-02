@@ -3,6 +3,7 @@ using System;
 using GamesUp.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace GamesUp.Migrations
 {
     [DbContext(typeof(GamesUpDbContext))]
-    partial class GamesUpDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231202163521_FavoriteList")]
+    partial class FavoriteList
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,21 +24,6 @@ namespace GamesUp.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
-
-            modelBuilder.Entity("GamesUp.Models.FavoriteGames", b =>
-                {
-                    b.Property<Guid>("GameId")
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("text");
-
-                    b.HasKey("GameId", "UserId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("FavoriteGames");
-                });
 
             modelBuilder.Entity("GamesUp.Models.Game", b =>
                 {
@@ -140,6 +128,21 @@ namespace GamesUp.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("GamesUp.Models.UserGame", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("GameId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("UserId", "GameId");
+
+                    b.HasIndex("GameId");
+
+                    b.ToTable("UserGame");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -274,19 +277,23 @@ namespace GamesUp.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("GamesUp.Models.FavoriteGames", b =>
+            modelBuilder.Entity("GamesUp.Models.UserGame", b =>
                 {
-                    b.HasOne("GamesUp.Models.Game", null)
-                        .WithMany()
+                    b.HasOne("GamesUp.Models.Game", "Game")
+                        .WithMany("Users")
                         .HasForeignKey("GameId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("GamesUp.Models.User", null)
-                        .WithMany()
+                    b.HasOne("GamesUp.Models.User", "User")
+                        .WithMany("FavoriteGames")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Game");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -338,6 +345,16 @@ namespace GamesUp.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("GamesUp.Models.Game", b =>
+                {
+                    b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("GamesUp.Models.User", b =>
+                {
+                    b.Navigation("FavoriteGames");
                 });
 #pragma warning restore 612, 618
         }
