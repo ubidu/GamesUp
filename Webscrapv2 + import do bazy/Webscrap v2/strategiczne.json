@@ -1,0 +1,362 @@
+[
+    {
+        "Name": "Twierdza: Edycja ostateczna",
+        "Description": "Ulepszona wersja nominowanej do nagrody BAFTA kultowej strategii czasu rzeczywistego, kt\u00f3ra zapocz\u0105tkowa\u0142a ca\u0142\u0105 legendarn\u0105 seri\u0119. Wydany w 2001 roku klasyk powraca w blasku chwa\u0142y za spraw\u0105 Stronghold: Definitive Edition, nios\u0105c ze sob\u0105 od\u015bwie\u017con\u0105 oraz ca\u0142kiem now\u0105 zawarto\u015b\u0107.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1567958578.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-07",
+        "Platform": "PC",
+        "Developer": "Firefly Studios",
+        "Publisher": "Firefly Studios"
+    },
+    {
+        "Name": "Cities: Skylines II",
+        "Description": "Cities: Skylines II to druga ods\u0142ona cyklu strategii ekonomicznych typu city builder. Dzie\u0142o studia Colossal Order skupia si\u0119 na budowie i zarz\u0105dzaniu miastem, a do naszych zada\u0144 nale\u017cy tworzenie dzielnic, wytyczanie dr\u00f3g czy ustalanie podatk\u00f3w.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1746670703.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-10-24",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Colossal Order",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "Dungeons 4",
+        "Description": "Czwarta cz\u0119\u015b\u0107 zapocz\u0105tkowanej w 2011 roku serii RTS-\u00f3w inspirowanych kultowym Dungeon Keeperem. W Dungeons 4 ponownie wcielamy si\u0119 w mrocznego w\u0142adc\u0119, kt\u00f3ry chce przej\u0105\u0107 kontrol\u0119 nad ca\u0142ym fantastycznym \u015bwiatem. Tytu\u0142 pozwala na zabaw\u0119 w pojedynk\u0119 lub w trybie wsp\u00f3\u0142pracy.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-1422757546.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-09",
+        "Platform": "PC, PS5, XSX, Switch",
+        "Developer": "Realmforge Studios",
+        "Publisher": "Kalypso Media"
+    },
+    {
+        "Name": "Last Train Home",
+        "Description": "Survivalowa strategia czasu rzeczywistego, kt\u00f3ra przenosi nas w realia wojny domowej w Rosji (1917-1922). W Last Train Home gracz kieruje poczynaniami \u017co\u0142nierzy Legionu Czechos\u0142owackiego, kt\u00f3rzy usi\u0142uj\u0105 powr\u00f3ci\u0107 do ojczyzny.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1048108234.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-28",
+        "Platform": "PC",
+        "Developer": "Ashborne Games",
+        "Publisher": "THQ Nordic / Nordic Games"
+    },
+    {
+        "Name": "Warhammer Age of Sigmar: Realms of Ruin",
+        "Description": "RTS osadzony w uniwersum znanej gry bitewnej. W Warhammer Age of Sigmar: Realms of Ruin opowiadamy si\u0119 po jednej ze stron konfliktu i prowadzimy j\u0105 do zwyci\u0119stwa, to jest przej\u0119cia kontroli nad ponur\u0105 krain\u0105 Ghur.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1566695500.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-17",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Frontier Developments",
+        "Publisher": "Frontier Developments"
+    },
+    {
+        "Name": "Total War: Pharaoh",
+        "Description": "Total War: Pharaoh  to strategia historyczna osadzona w czasach staro\u017cytnego Egiptu. Rozgrywka dzieli si\u0119 na dwie p\u0142aszczyzny \u2013 turow\u0105 na mapie strategicznej, gdzie zarz\u0105dzamy pa\u0144stwem, oraz toczone w czasie rzeczywistym wielkie bitwy z udzia\u0142em tysi\u0119cy jednostek.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1659572515.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-10-11",
+        "Platform": "PC",
+        "Developer": "Creative Assembly",
+        "Publisher": "SEGA"
+    },
+    {
+        "Name": "Age of Wonders 4",
+        "Description": "Czwarta pe\u0142noprawna ods\u0142ona osadzonej w realiach fantasy kultowej serii strategii turowych od Triumph Studios. Wydaniem gry Age of Wonders 4 zaj\u0119\u0142a si\u0119 firma Paradox Interactive. Gra oferuje zar\u00f3wno kampani\u0119, jak i rozbudowany kreator \u015bwiat\u00f3w.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/15756531.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-05-02",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Triumph Studios",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "Stargate: Timekeepers",
+        "Description": "Taktyczna strategia czasu rzeczywistego, osadzona w uniwersum Gwiezdnych wr\u00f3t. Za opracowaniem gry Stargate: Timekeepers stoi polskie studio CreativeForge Games, maj\u0105ce w swoim portfolio takie pozycje jak Hard West oraz Phantom Doctrine.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/171589578.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-12-12",
+        "Platform": "PC",
+        "Developer": "CreativeForge Games",
+        "Publisher": "Matrix Games/Slitherine"
+    },
+    {
+        "Name": "Age of Empires IV: Su\u0142tani powstaj\u0105",
+        "Description": "Du\u017cy dodatek do RTS-a pod tytu\u0142em Age of Empires IV. Add-on Age of Empires IV: The Sultans Ascend wprowadza now\u0105 kampani\u0119 fabularn\u0105, dwie dodatkowe cywilizacje oraz mo\u017cliwo\u015b\u0107 walki na morzu, a tak\u017ce reinterpretuje cztery cywilizacje dost\u0119pne w podstawowej wersji gry.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-1854246953.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-14",
+        "Platform": "PC, XSX, XONE",
+        "Developer": "Relic Entertainment / Forgotten Empires",
+        "Publisher": "Xbox Game Studios / Microsoft Studios"
+    },
+    {
+        "Name": "Gord",
+        "Description": "Gord to pe\u0142na odniesie\u0144 do s\u0142owia\u0144skiego folkloru, przeznaczona dla jednego gracza produkcja \u0142\u0105cz\u0105ca w sobie gr\u0119 przygodow\u0105 i strategiczn\u0105 z rozbudow\u0105 bazy. Za tytu\u0142 odpowiada polskie studio Covenant.dev.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/3487343.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-08-17",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Covenant.dev",
+        "Publisher": "Team17"
+    },
+    {
+        "Name": "Jagged Alliance 3",
+        "Description": "Trzecia g\u0142\u00f3wna cz\u0119\u015b\u0107 kultowej serii strategii turowych. Jagged Alliance 3 przenosi nas do fikcyjnego pa\u0144stwa Grand Chien, gdzie dowodz\u0105c oddzia\u0142ami najemnik\u00f3w, pr\u00f3bujemy odnale\u017a\u0107 zaginionego prezydenta oraz przywr\u00f3ci\u0107 dawny \u0142ad i porz\u0105dek.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1212469859.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-07-14",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Haemimont Games",
+        "Publisher": "THQ Nordic / Nordic Games"
+    },
+    {
+        "Name": "Company of Heroes 3",
+        "Description": "Company of Heroes 3 to trzecia ods\u0142ona popularnego cyklu taktycznych strategii czasu rzeczywistego osadzonych w realiach II wojny \u015bwiatowej. Tym razem kampania skupia si\u0119 na terenach W\u0142och oraz Afryki P\u00f3\u0142nocnej.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1730898171.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-02-23",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Relic Entertainment",
+        "Publisher": "SEGA"
+    },
+    {
+        "Name": "Dune: Spice Wars",
+        "Description": "Dune: Spice Wars to RTS z elementami 4X, osadzony w uniwersum wykreowanym przez Franka Herberta. Tytu\u0142 zosta\u0142 opracowany przez studio Shiro Games, czyli tw\u00f3rc\u00f3w m.in. ciep\u0142o przyj\u0119tego Northgard.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/440688437.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-09-14",
+        "Platform": "PC, XSX",
+        "Developer": "Shiro Games",
+        "Publisher": "Funcom"
+    },
+    {
+        "Name": "Europa Universalis IV: King of Kings",
+        "Description": "Dodatek do historycznej gry strategicznej Europa Universalis IV z 2013 roku. Rozszerzenie King of Kings wprowadza m.in. nowe wydarzenia, reformy czy jednostki, skupiaj\u0105c si\u0119 przy tym na Persji, Cesarstwie Bizantyjskim oraz su\u0142tanacie mameluk\u00f3w.",
+        "CoverPath": "/galeria/gry13/200/1175895359.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-06",
+        "Platform": "PC",
+        "Developer": "Paradox Tinto",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "Frigato: Shadows of the Caribbean",
+        "Description": "Frigato: Shadows of the Caribbean to strategia taktyczna wzorowana na serii Commandos, w kt\u00f3rej dowodzimy grup\u0105 pirat\u00f3w podejmuj\u0105cych si\u0119 realizacji zuchwa\u0142ych misji. Gra k\u0142adzie nacisk na podej\u015bcie skradankowe oraz wykorzystywanie unikalnych zdolno\u015bci postaci.",
+        "CoverPath": "/galeria/gry13/200/908353296.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-03",
+        "Platform": "PC, XSX, XONE, Switch",
+        "Developer": "Mercat Games",
+        "Publisher": "FreeMind S.A."
+    },
+    {
+        "Name": "Stellaris: Astral Planes",
+        "Description": "Dodatek do kosmicznego RTS-a zatytu\u0142owanego Stellaris. W Stellaris: Astral Planes udajemy si\u0119 w podr\u00f3\u017c przez wyrwy w czasoprzestrzeni, kt\u00f3re prowadz\u0105 nas do nowych, niezbadanych wymiar\u00f3w, gdzie czekaj\u0105 na nas wyj\u0105tkowe odkrycia.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-1422883421.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-16",
+        "Platform": "PC",
+        "Developer": "Paradox Development Studio",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "The Settlers: New Allies",
+        "Description": "\u00d3sma cz\u0119\u015b\u0107 serii ekonomicznych gier strategicznych, w kt\u00f3rych przejmujemy kontrol\u0119 nad tytu\u0142owymi osadnikami. The Settlers \u0142\u0105czy rozwi\u0105zania znane z poprzednich ods\u0142on cyklu z zupe\u0142nie nowymi elementami rozgrywki.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/194874796.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-02-17",
+        "Platform": "PC, PS4, XONE, Switch",
+        "Developer": "Ubisoft Blue Byte",
+        "Publisher": "Ubisoft"
+    },
+    {
+        "Name": "Legacy",
+        "Description": "Legacy to strategia ekonomiczna od Petera Molyneux, koncentruj\u0105ca si\u0119 na tworzeniu i dystrybucji wynalazk\u00f3w. Gracz tworzy nowe przedmioty z gotowych podzespo\u0142\u00f3w, a potem musi zorganizowa\u0107 ich produkcj\u0119 na du\u017c\u0105 skal\u0119, buduj\u0105c fabryki, pozyskuj\u0105c surowce i zatrudniaj\u0105c pracownik\u00f3w. Na ko\u0144cu trzeba to wszystko skutecznie sprzeda\u0107.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/956626500.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-10-26",
+        "Platform": "PC",
+        "Developer": "22cans",
+        "Publisher": "22cans"
+    },
+    {
+        "Name": "Anvil Saga",
+        "Description": "Anvil Saga to symulacja traktuj\u0105ca o prowadzeniu \u015bredniowiecznej ku\u017ani w trakcie wojny stuletniej. Gracz musi realizowa\u0107 zlecenia, rozwija\u0107 biznes, konstruowa\u0107 nowe pomieszczania oraz zatrudnia\u0107 pracownik\u00f3w. Regularnie podejmuje te\u017c decyzje, kt\u00f3re wp\u0142ywaj\u0105 na sytuacj\u0119 w \u015bwiecie gry oraz kszta\u0142tuj\u0105 stosunki r\u00f3\u017cnych frakcji do kowala.",
+        "CoverPath": "/galeria/gry13/200/-1395894828.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-16",
+        "Platform": "PC",
+        "Developer": "Pirozhok Studio ",
+        "Publisher": "HeroCraft"
+    },
+    {
+        "Name": "Pharaoh: A New Era",
+        "Description": "Remake kultowej gry strategicznej typu city builder wydanej w 1999 roku. W Pharaoh: A New Era zawarto zar\u00f3wno podstawow\u0105 wersj\u0119 tej produkcji, jak i dodatek zatytu\u0142owany Kleopatra: Kr\u00f3lowa Nilu. Na potrzeby gry od\u015bwie\u017cono grafik\u0119, soundtrack oraz interfejs.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/435463890.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-02-15",
+        "Platform": "PC",
+        "Developer": "Triskell Interactive",
+        "Publisher": "Dotemu"
+    },
+    {
+        "Name": "Stranded: Alien Dawn",
+        "Description": "Strategia z elementami survivalowymi, w kt\u00f3rej przejmujemy kontrol\u0119 nad grup\u0105 kolonist\u00f3w i budujemy baz\u0119 na obcej planecie. Stranded: Alien Dawn jest dzie\u0142em studia Haemimont Games \u2013 autor\u00f3w pokrewnego tematycznie Surviving Mars oraz trzech cz\u0119\u015bci serii Tropico.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/443506796.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-04-25",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Haemimont Games",
+        "Publisher": "Frontier Foundry"
+    },
+    {
+        "Name": "SpellForce: Conquest of Eo",
+        "Description": "Strategia fantasy \u0142\u0105cz\u0105ca system turowy z elementami 4X. W SpellForce: Conquest of Eo gracz wciela si\u0119 w maga, kt\u00f3ry przejmuje wie\u017c\u0119 swojego zmar\u0142ego mistrza, by kontynuowa\u0107 jego badania. W tym celu musi wyszkoli\u0107 armi\u0119 i podbi\u0107 nowe terytoria.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/618079031.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-02-03",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Owned by Gravity",
+        "Publisher": "THQ Nordic / Nordic Games"
+    },
+    {
+        "Name": "Terminator: Dark Fate - Defiance",
+        "Description": "Terminator: Dark Fate \u2013 Defiance to wojenny RTS osadzony w postapokaliptycznej przysz\u0142o\u015bci. Gracz dowodzi si\u0142ami ruchu oporu walcz\u0105cymi z mechanicznymi armiami bezwzgl\u0119dnej sztucznej inteligencji Legion.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-1854156437.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-02-03",
+        "Platform": "PC",
+        "Developer": "Matrix Games/Slitherine",
+        "Publisher": "Matrix Games/Slitherine"
+    },
+    {
+        "Name": "Star Trek: Infinite",
+        "Description": "Gra strategiczna typu 4X, oparta na licencji serii Star Trek. Star Trek: Infinite jest dzie\u0142em studia Nimble Giant Entertainment, a jego wydaniem zaj\u0119\u0142a si\u0119 firma Paradox Interactive.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1048181281.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-10-12",
+        "Platform": "PC",
+        "Developer": "Nimble Giant Entertainment",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "Railway Empire 2",
+        "Description": "Railway Empire 2 to kontynuacja ciep\u0142o przyj\u0119tej strategii ekonomicznej z 2018 roku. W grze ponownie rozwijamy w\u0142asn\u0105 firm\u0119 specjalizuj\u0105c\u0105 si\u0119 w transporcie kolejowym. Za powstanie gry odpowiadaj\u0105 Gaming Minds Sudios oraz Kalypso Media.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1828005937.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-05-25",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Gaming Minds Studios",
+        "Publisher": "Kalypso Media"
+    },
+    {
+        "Name": "Emergency",
+        "Description": "Strategia czasu rzeczywistego, w kt\u00f3rej dowodzimy jednostkami policji, stra\u017cy po\u017carnej, pogotowia oraz s\u0142u\u017cb technicznych. W przeciwie\u0144stwie do wcze\u015bniejszych ods\u0142on cyklu, Emergency jest dystrybuowane w modelu darmowym z mikrop\u0142atno\u015bciami (free-to-play).",
+        "CoverPath": "/galeria/gry13/200/732080453.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-08-15",
+        "Platform": "PC",
+        "Developer": "Sixteen Tons Entertainment",
+        "Publisher": "Sixteen Tons Entertainment"
+    },
+    {
+        "Name": "Warcraft Rumble",
+        "Description": "Gra strategiczna osadzona w uniwersum serii Warcraft. W Warcraft Arclight Rumble naszym zadaniem jest pokonanie bossa i niedopuszczenie do zniszczenia naszej bazy. By tego dokona\u0107, wystawiamy jednostki zwane mini, kt\u00f3re samodzielnie walcz\u0105, gromadz\u0105 surowce i przejmuj\u0105 obiekty. Tytu\u0142 pozwala na zabaw\u0119 w pojedynk\u0119 lub w trybie multiplayer.",
+        "CoverPath": "/galeria/gry13/200/382403828.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-03",
+        "Platform": "AND, iOS",
+        "Developer": "Blizzard Entertainment",
+        "Publisher": "Blizzard Entertainment"
+    },
+    {
+        "Name": "Ancient Cities",
+        "Description": "Gra strategiczna czasu rzeczywistego, wzbogacona o elementy RPG, produkcji typu city builder i gry survivalowej, za kt\u00f3rej opracowaniem stoi niezale\u017cne studio Uncasual Games. Gracz wciela si\u0119 w przyw\u00f3dc\u0119 plemienia \u017cyj\u0105cego w czasach neolitu, a postawione przed nim zadanie polega na zapewnieniu podopiecznym dachu nad g\u0142ow\u0105 i ochrony przed drapie\u017cnikami oraz dostarczeniu po\u017cywienia w ilo\u015bci wystarczaj\u0105cej do prze\u017cycia.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/70518208.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-03-24",
+        "Platform": "PC",
+        "Developer": "Uncasual Games",
+        "Publisher": "Uncasual Games"
+    },
+    {
+        "Name": "Age of Wonders 4: Empires & Ashes",
+        "Description": "Pierwszy du\u017cy dodatek do gry Age of Wonders 4, b\u0119d\u0105cej strategi\u0105 turow\u0105 typu 4X. W Age of Wonders 4: Empires & Ashes wprowadzono dwie nowe misje fabularne, kultur\u0119 Rozb\u00f3jnik\u00f3w, niedost\u0119pny wcze\u015bniej warunek zwyci\u0119stwa oraz szereg pomniejszych nowo\u015bci.",
+        "CoverPath": "/galeria/gry13/200/-1560961828.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-11-07",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Triumph Studios",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "F1 Manager 2023",
+        "Description": "F1 Manager 2023 to druga strategia sportowa pozwalaj\u0105ca pokierowa\u0107 zespo\u0142em kierowc\u00f3w rywalizuj\u0105cych w Formule 1, kt\u00f3r\u0105 opracowa\u0142o studio Frontier Developments. Gracz musi dba\u0107 o cz\u0142onk\u00f3w teamu i maszyny, tworzy\u0107 strategie na wy\u015bcigi czy zarz\u0105dza\u0107 finansami.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1659197281.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-07-31",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Frontier Developments",
+        "Publisher": "Frontier Developments"
+    },
+    {
+        "Name": "Stellaris: Galactic Paragons",
+        "Description": "Dodatek do kosmicznej strategii czasu rzeczywistego Stellaris. Rozszerzenie Stellaris: Galactic Paragons zwi\u0119ksza znaczenie rady imperium oraz przyw\u00f3dc\u00f3w, wprowadza r\u00f3wnie\u017c postacie o unikalnych historiach i zwi\u0105zane z nimi wydarzenia.",
+        "CoverPath": "/galeria/gry13/200/-2136589750.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-05-09",
+        "Platform": "PC",
+        "Developer": "Paradox Development Studio",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "Grimgrad",
+        "Description": "Grimgrad to RTS, w kt\u00f3rym obejmujemy piecz\u0119 nad s\u0142owia\u0144sk\u0105 osad\u0105 w czasach \u015bredniowiecza i musimy j\u0105 rozwin\u0105\u0107 w wielk\u0105 metropoli\u0119. Rozgrywka koncentruje si\u0119 na aspekcie ekonomicznym oraz survivalowym, wymagaj\u0105c radzenia m.in. z sobie z ci\u0119\u017ck\u0105 pogod\u0105, plagami oraz drapie\u017cnikami.",
+        "CoverPath": "/galeria/gry13/200/125175796.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-04-05",
+        "Platform": "PC",
+        "Developer": "Juvty Worlds Ltd.",
+        "Publisher": "Juvty Worlds Ltd."
+    },
+    {
+        "Name": "The Great War: Western Front",
+        "Description": "Gra strategiczna, kt\u00f3ra \u0142\u0105czy elementy RTS-a i strategii turowej. W The Great War: Western Front od studia Petroglyph bierzemy udzia\u0142 w dzia\u0142aniach na froncie zachodnim I wojny \u015bwiatowej, dowodz\u0105c oddzia\u0142ami ententy lub pa\u0144stw centralnych. Tytu\u0142 pozwala na zabaw\u0119 w pojedynk\u0119 lub na rozgrywk\u0119 w trybie multiplayer.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/17025390.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-03-30",
+        "Platform": "PC",
+        "Developer": "Petroglyph",
+        "Publisher": "Frontier Foundry"
+    },
+    {
+        "Name": "Shadow Gambit: The Cursed Crew",
+        "Description": "Utrzymana w pirackich klimatach taktyczna strategia czasu rzeczywistego od studia Mimimi Games. Tak jak w dw\u00f3ch poprzednich grach dewelopera \u2013 czyli Shadow Tactics: Blades of the Shogun i Desperados 3 \u2013 du\u017cy nacisk po\u0142o\u017cono w niej na skradanie si\u0119.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/451580968.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-08-17",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Mimimi Games",
+        "Publisher": "Mimimi Games"
+    },
+    {
+        "Name": "Hearts of Iron IV: Arms Against Tyranny",
+        "Description": "\u00d3smy du\u017cy dodatek do strategii pod tytu\u0142em Hearts of Iron IV. Rozszerzenie Hearts of Iron IV: Arms Against Tyranny skupia si\u0119 na czterech krajach p\u00f3\u0142nocy \u2013 Finlandii, Norwegii, Danii oraz Szwecji \u2013 kt\u00f3re poszukuj\u0105 w\u0142asnego sposobu na przetrwanie wojennej po\u017cogi.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-2031217765.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-10-10",
+        "Platform": "PC",
+        "Developer": "Paradox Development Studio",
+        "Publisher": "Paradox Interactive"
+    },
+    {
+        "Name": "Command & Conquer: Legions",
+        "Description": "Mobilna ods\u0142ona serii Command & Conquer, dystrybuowana w modelu free-to-play. Pojawi\u0105 si\u0119 w niej kultowi bohaterowie i z\u0142oczy\u0144cy, a tak\u017ce frakcje oraz jednostki z r\u00f3\u017cnych ods\u0142on owego cyklu strategii czasu rzeczywistego.",
+        "CoverPath": "/galeria/gry13/200/1086685812.jpg",
+        "Category": "Strategiczne",
+        "ReleaseDate": "2023-10-10",
+        "Platform": "AND, iOS",
+        "Developer": "Level Infinite",
+        "Publisher": "Level Infinite"
+    }
+]

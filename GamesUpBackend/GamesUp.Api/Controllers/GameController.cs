@@ -118,8 +118,10 @@ public class GameController : ApiController
     private static GamesResponse MapGamesResponse(Game game)
     {
         var response = new GamesResponse(
+            game.Id,
             game.Name,
-            game.CoverPath);
+            game.CoverPath,
+            game.Description);
 
         return response;
     }

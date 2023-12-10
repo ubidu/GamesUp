@@ -1,0 +1,362 @@
+[
+    {
+        "Name": "Call of Duty: Modern Warfare III",
+        "Description": "Pierwszoosobowa strzelanka b\u0119d\u0105ca kontynuacj\u0105 Call of Duty: Modern Warfare 2 z 2022 roku i zarazem rebootem CoD: Modern Warfare 3 z roku 2011. Gra oferuje kampani\u0119 fabularn\u0105, tryby multiplayer i zombie.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/707311453.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-10",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Sledgehammer Games",
+        "Publisher": "Activision Blizzard"
+    },
+    {
+        "Name": "Alan Wake 2",
+        "Description": "Alan Wake 2 to survival horror b\u0119d\u0105cy bezpo\u015bredni\u0105 kontynuacj\u0105 gry z 2010 roku. Produkcja ponownie pozwala nam przenie\u015b\u0107 si\u0119 do miasteczka Bright Falls i wraz z dw\u00f3jk\u0105 grywalnych postaci (tytu\u0142owym bohaterem i agentk\u0105 FBI Sag\u0105 Anderson) stan\u0105\u0107 do walki z mrocznymi si\u0142ami.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1821230750.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-10-27",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Remedy Entertainment",
+        "Publisher": "Epic Games"
+    },
+    {
+        "Name": "Marvel's Spider-Man 2",
+        "Description": "Druga cz\u0119\u015b\u0107 bestsellerowej serii Spider-Man autorstwa Insomniac Games. Gra zosta\u0142a stworzona z my\u015bl\u0105 o konsoli PS5 i zawiera dwie grywalne postacie \u2013 Petera Parkera i Milesa Moralesa.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1213668796.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-10-20",
+        "Platform": "PS5",
+        "Developer": "Insomniac Games",
+        "Publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "Name": "RoboCop: Rogue City",
+        "Description": "FPS stworzony przez polskie studio Teyon, maj\u0105ce w swoim dorobku mi\u0119dzy innymi gr\u0119 Terminator: Resistance. W RoboCop: Rogue City wcielamy si\u0119 w tytu\u0142owego cyborga, kt\u00f3ry jako policjant walczy z przest\u0119pczo\u015bci\u0105 na ulicach Detroit.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1040281812.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-02",
+        "Platform": "PC, PS5, XSX, Switch",
+        "Developer": "Teyon",
+        "Publisher": "Nacon / Bigben Interactive"
+    },
+    {
+        "Name": "Assassin's Creed: Nexus VR",
+        "Description": "Gra akcji FPP b\u0119d\u0105ca spin-offem serii Assassin\u2019s Creed. W Assassin\u2019s Creed: Nexus VR prze\u017cywamy wspomnienia Kassandry, Ezio Auditore i Connora Kenwaya, pr\u00f3buj\u0105c rozwik\u0142a\u0107 zagadk\u0119 ukrytych przez nich artefakt\u00f3w. Produkcj\u0119 przygotowano z my\u015bl\u0105 o zestawach rzeczywisto\u015bci wirtualnej.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1047625437.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-16",
+        "Platform": "PC",
+        "Developer": "Ubisoft",
+        "Publisher": "Ubisoft"
+    },
+    {
+        "Name": "Avatar: Frontiers of Pandora",
+        "Description": "Avatar: Frontiers of Pandora to przygodowa gra akcji, osadzona w uniwersum filmowej serii Avatar. Produkcja zosta\u0142a opracowana przez studio Ubisoft Massive, maj\u0105ce w swoim portfolio mi\u0119dzy innymi cykl Tom Clancy's The Division.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/85345078.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-12-07",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Massive Entertainment / Ubisoft Massive",
+        "Publisher": "Ubisoft"
+    },
+    {
+        "Name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+        "Description": "Like a Dragon Gaiden: The Man Who Erased His Name to przygodowa gra akcji, kt\u00f3rej fabu\u0142a toczy si\u0119 pomi\u0119dzy Yakuz\u0105 6 i Yakuz\u0105 7. Kazuma Kiryu powraca w roli g\u0142\u00f3wnego bohatera, a rozgrywka zn\u00f3w koncentruje si\u0119 na walce w czasie rzeczywistym.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-1430420609.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-08",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Ryu ga Gotoku Studio",
+        "Publisher": "SEGA"
+    },
+    {
+        "Name": "Assassin's Creed: Mirage",
+        "Description": "Poboczna ods\u0142ona serii, k\u0142ad\u0105ca du\u017cy nacisk na skradanie si\u0119. Assassin\u2019s Creed: Mirage (wcze\u015bniej znana jako Rift) to gra znacznie mniejsza ni\u017c Origins, Odyssey czy Valhalla, wracaj\u0105ca niejako do korzeni cyklu Ubisoftu.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1741425484.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-10-05",
+        "Platform": "PC, PS5, XSX, PS4, XONE, iOS",
+        "Developer": "Ubisoft",
+        "Publisher": "Ubisoft"
+    },
+    {
+        "Name": "The Legend of Zelda: Tears of the Kingdom",
+        "Description": "The Legend of Zelda: Tears of the Kingdom stanowi kontynuacj\u0119 The Legend of Zelda: Breath of the Wild. W tej ods\u0142onie Link zn\u00f3w musi uratowa\u0107 Hyrule, tym razem eksploruj\u0105c r\u00f3wnie\u017c podniebne wyspy i podziemn\u0105 krain\u0119, w czym pomog\u0105 mu nowe umiej\u0119tno\u015bci.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/14295859.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-05-12",
+        "Platform": "Switch",
+        "Developer": "Nintendo",
+        "Publisher": "Nintendo"
+    },
+    {
+        "Name": "The Walking Dead: Destinies",
+        "Description": "Przygodowa gra akcji oparta na popularnym serialu \u017bywe trupy. W The Walking Dead: Destinies przejmujemy kontrol\u0119 nad znanymi nam bohaterami, zyskuj\u0105c mo\u017cliwo\u015b\u0107 poprowadzenia fabu\u0142y w alternatywny spos\u00f3b.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1822013062.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-17",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Flux Games",
+        "Publisher": "GameMill Entertainment"
+    },
+    {
+        "Name": "The Lord of the Rings: Return to Moria",
+        "Description": "Gra survivalowa TPP, kt\u00f3ra zabiera nas w podr\u00f3\u017c do uniwersum W\u0142adcy Pier\u015bcieni. W The Lord of the Rings: Return to Moria wcielamy si\u0119 w krasnoludy, kt\u00f3re przybywaj\u0105 na wezwanie lorda Gimliego Lockbearera, by odbi\u0107 Mori\u0119 i odzyska\u0107 ukryte w niej skarby.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/617907531.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-10-24",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Free Range Games",
+        "Publisher": "North Beach Games"
+    },
+    {
+        "Name": "Star Wars Jedi: Ocala\u0142y",
+        "Description": "Druga cz\u0119\u015b\u0107 serii przygodowych gier akcji TPP z elementami RPG, osadzonych w uniwersum Gwiezdnych wojen. W Star Wars Jedi: Survivor \u015bledzimy dalsze losy Cala Kestisa, kt\u00f3ry jako jeden z ostatnich Jedi musi za wszelk\u0105 cen\u0119 unikn\u0105\u0107 wpadni\u0119cia w r\u0119ce Imperium.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1567090328.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-04-28",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Respawn Entertainment",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "The Last Faith",
+        "Description": "Gra typu metroidvania, zrealizowana w formie platform\u00f3wki akcji. W The Last Faith wcielamy si\u0119 w Erica, kt\u00f3ry przemierza pe\u0142ne niebezpiecze\u0144stw gotyckie miasto, staraj\u0105c si\u0119 odkry\u0107 prawd\u0119 na temat starej przepowiedni i zepsucia trawi\u0105cego metropoli\u0119.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1916387500.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-15",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Kumi Souls Games",
+        "Publisher": "PlayStack"
+    },
+    {
+        "Name": "Dead Space",
+        "Description": "Dead Space to remake survival horroru opracowanego przez zesp\u00f3\u0142 Visceral Games. Za od\u015bwie\u017cenie gry, w kt\u00f3rej musimy zmierzy\u0107 si\u0119 z kosmiczn\u0105 groz\u0105, odpowiada studio EA Motive.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1451037796.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-01-27",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Motive Studio",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "Arma Reforger",
+        "Description": "Poboczna ods\u0142ona cyklu sieciowych strzelanek pod tytu\u0142em Arma, b\u0119d\u0105ca niejako testem nowego silnika graficznego, stworzonego z my\u015bl\u0105 o pe\u0142noprawnej, czwartej cz\u0119\u015bci serii. W Arma Reforger trafiamy na dwie du\u017ce wyspy i bierzemy udzia\u0142 w realistycznych potyczkach.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1047061265.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-16",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Bohemia Interactive",
+        "Publisher": "Bohemia Interactive"
+    },
+    {
+        "Name": "Turok 3: Shadow of Oblivion Remastered",
+        "Description": "Zremasterowana wersja FPS-a z 2000 roku. W Turok 3: Shadow of Oblivion Remastered wcielamy si\u0119 w Josepha i Danielle\u2019a Fireseed\u00f3w, kt\u00f3rzy musz\u0105 rozprawi\u0107 si\u0119 z potworn\u0105 kosmiczn\u0105 istot\u0105 \u2013 tytu\u0142owym Oblivionem.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1916651984.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-30",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Nightdive Studios / Iguana",
+        "Publisher": "Nightdive Studios"
+    },
+    {
+        "Name": "Resident Evil 4",
+        "Description": "Resident Evil 4 to od\u015bwie\u017cona wersja kultowego horroru o tej samej nazwie, zapowiedziana podczas imprezy Sony State of Play w 2022 roku. Resident Evil 4 doczeka\u0142 si\u0119 mi\u0119dzy innymi poprawek graficznych.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/617965406.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-03-24",
+        "Platform": "PC, PS5, XSX, PS4, iOS",
+        "Developer": "Capcom",
+        "Publisher": "Capcom"
+    },
+    {
+        "Name": "Ghostrunner 2",
+        "Description": "Druga ods\u0142ona cyklu cyberpunkowych gier akcji FPP, zapocz\u0105tkowanego w 2020 roku. Akcja gry Ghostrunner 2 toczy si\u0119 rok po wydarzeniach z pierwowzoru. Tym razem Jack musi stawi\u0107 czo\u0142a brutalnemu kultowi SI, a od jego poczyna\u0144 zale\u017cy los ca\u0142ej ludzko\u015bci. Tytu\u0142 zosta\u0142 opracowany przez tw\u00f3rc\u00f3w pierwszej cz\u0119\u015bci serii, czyli polskie studio One More Level, za\u015b jego wydaniem zaj\u0119\u0142a si\u0119 firma 505 Games, posiadaj\u0105ca prawa do marki od marca 2021 roku.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1213287203.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-10-26",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "One More Level",
+        "Publisher": "505 Games"
+    },
+    {
+        "Name": "Remnant II",
+        "Description": "Remnant II to gra akcji TPP wzbogacona elementami RPG. Rozgrywka koncentruje si\u0119 na zr\u0119czno\u015bciowej walce z wykorzystaniem broni palnej, broni bia\u0142ej oraz licznych zdolno\u015bci specjalnych. Produkcja pozwala na zabaw\u0119 solo lub w trybie co-op.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1128954500.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-07-25",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Gunfire Games",
+        "Publisher": "Gearbox Publishing"
+    },
+    {
+        "Name": "Wild Hearts",
+        "Description": "Gra akcji TPP z elementami RPG, w kt\u00f3rej polujemy na przero\u015bni\u0119te stworzenia w fantastycznej krainie, dzia\u0142aj\u0105c w pojedynk\u0119 lub w trzyosobowym zespole. Wild Hearts jest dzie\u0142em studia Omega Force, a wydaniem tej produkcji zaj\u0119\u0142a si\u0119 firma Electronic Arts.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/963259578.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-02-16",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Omega Force / Koei Tecmo",
+        "Publisher": "Electronic Arts Inc."
+    },
+    {
+        "Name": "Dead Island 2",
+        "Description": "Druga cz\u0119\u015b\u0107 serii gier akcji FPP, w kt\u00f3rej walczymy o przetrwanie podczas apokalipsy zombie. Dead Island 2 zabiera nas do Los Angeles, gdzie trafiamy jako jeden ze szcz\u0119\u015bliwc\u00f3w odpornych na dzia\u0142anie \u015bmiertelnie niebezpiecznego wirusa. Przemierzaj\u0105c miasto, wykonuj\u0105c zadania i eliminuj\u0105c hordy \u017cywych trup\u00f3w, staramy si\u0119 dotrze\u0107 do \u017ar\u00f3d\u0142a epidemii.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/626607656.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-04-21",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Sumo Digital / Deep Silver Dambuster Studios",
+        "Publisher": "Deep Silver / Plaion"
+    },
+    {
+        "Name": "Redfall",
+        "Description": "Redfall to stworzony przez studio Arkane, autor\u00f3w Dishonored i Prey, FPS z otwartym \u015bwiatem, w kt\u00f3rym mo\u017cemy  bawi\u0107 si\u0119 samotnie lub w trybie kooperacji dla maksymalnie czterech os\u00f3b. Akcja gry toczy si\u0119 na wyspie opanowanej przez wampiry.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/85948468.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-05-02",
+        "Platform": "PC, XSX",
+        "Developer": "Arkane Studios",
+        "Publisher": "Bethesda Softworks"
+    },
+    {
+        "Name": "Quantum Error",
+        "Description": "Po\u0142\u0105czenie FPS-a i survival horroru w realiach science fiction. W Quantum Error przemierzamy zaatakowan\u0105 przez nieznanego wroga siedzib\u0119 firmy Monad i stawiamy czo\u0142a agresywnym, zmutowanym ludziom. Tytu\u0142 wykorzystuje mo\u017cliwo\u015bci konsoli PlayStation 5, a jego mocn\u0105 stron\u0105 jest zaawansowany silnik fizyczny.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/434071859.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-03",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "TeamKill Media",
+        "Publisher": "TeamKill Media"
+    },
+    {
+        "Name": "Aliens: Dark Descent",
+        "Description": "Aliens: Dark Descent to gra akcji z widokiem izometrycznym i mocnymi elementami taktycznymi. Podczas zabawy gracz dowodzi oddzia\u0142em \u017co\u0142nierzy walcz\u0105cym z ksenomorfami i agentami Weyland-Yutani na ksi\u0119\u017cycu Lethe.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1566354671.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-06-20",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Tindalos Interactive",
+        "Publisher": "Focus Entertainment / Focus Home Interactive"
+    },
+    {
+        "Name": "Counter-Strike 2",
+        "Description": "Counter-Strike 2 to pe\u0142noprawna druga cz\u0119\u015b\u0107 kultowej serii strzelanek od firmy Valve. Tytu\u0142 stanowi wielk\u0105 aktualizacj\u0119 popularnej gry CS:GO, przenosz\u0105c\u0105 j\u0105 na silnik Source 2 oraz oferuj\u0105c\u0105 gruntownie od\u015bwie\u017con\u0105 grafik\u0119 oraz inne liczne usprawnienia.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1045430828.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-09-27",
+        "Platform": "PC",
+        "Developer": "Valve Software",
+        "Publisher": "Valve Corporation"
+    },
+    {
+        "Name": "Flashback 2",
+        "Description": "Druga cz\u0119\u015b\u0107 kultowej serii platform\u00f3wek akcji, zapocz\u0105tkowanej w 1992 roku. W grze Flashback 2 ponownie wcielamy si\u0119 w Conrada B. Harta, kt\u00f3ry musi raz jeszcze stawi\u0107 czo\u0142a ukrywaj\u0105cym si\u0119 pod postaci\u0105 ludzi kosmitom zwanym Morphami.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1827262468.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-16",
+        "Platform": "PC, PS5, XSX, PS4, XONE, Switch",
+        "Developer": "Microids/Anuman Interactive",
+        "Publisher": "Microids/Anuman Interactive"
+    },
+    {
+        "Name": "Metal Gear Solid: Master Collection Vol. 1",
+        "Description": "Pakiet zremasterowanych wersji kultowych skradanek od firmy Konami. W sk\u0142ad zestawu Metal Gear Solid: Master Collection Vol. 1 wchodz\u0105 gry: Metal Gear, Metal Gear 2: Solid Snake, Metal Gear Solid, Metal Gear Solid 2: Sons of Liberty oraz Metal Gear Solid 3: Snake Eater.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1659382375.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-10-24",
+        "Platform": "PC, PS5, XSX, PS4, Switch",
+        "Developer": "Konami",
+        "Publisher": "Konami"
+    },
+    {
+        "Name": "Risk of Rain Returns",
+        "Description": "Zremasterowana wersja wydanej w 2013 roku hybrydy platform\u00f3wki i roguelike\u2019a. W Risk of Rain Returns wcielamy si\u0119 w ocala\u0142ych z katastrofy statku kosmicznego, kt\u00f3rzy musz\u0105 odkry\u0107 tajemnice opanowanej przez potwory planety Petrichor V.",
+        "CoverPath": "/galeria/gry13/200/90224015.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-08",
+        "Platform": "PC, Switch",
+        "Developer": "Hopoo Games",
+        "Publisher": "Gearbox Publishing"
+    },
+    {
+        "Name": "The Awakener: Forgotten Oath",
+        "Description": "Gra akcji TPP z elementami RPG i roguelike\u2019a. W The Awakener: Forgotten Oath wcielamy si\u0119 w bohater\u00f3w, kt\u00f3rzy przemierzaj\u0105 mroczn\u0105, fantastyczn\u0105 krain\u0119, eliminuj\u0105c zast\u0119py przeciwnik\u00f3w.",
+        "CoverPath": "/galeria/gry13/200/1169076671.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-07",
+        "Platform": "PC, PS5, PS4",
+        "Developer": "Taner Game",
+        "Publisher": "GameraGame"
+    },
+    {
+        "Name": "Forspoken",
+        "Description": "Przygodowa gra akcji TPP z elementami RPG, w kt\u00f3rej gracze trafiaj\u0105 do fantastycznego \u015bwiata Athii jako pochodz\u0105ca ze wsp\u00f3\u0142czesnego Nowego Jorku Frey. Za opracowaniem Forspoken stoi studio Luminous Productions (Final Fantasy XV).",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/445396796.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-01-24",
+        "Platform": "PC, PS5",
+        "Developer": "Luminous Productions",
+        "Publisher": "Square Enix"
+    },
+    {
+        "Name": "Vampire: The Masquerade - Justice",
+        "Description": "Przygodowa gra akcji z elementami RPG i skradanki, osadzona w uniwersum \u015awiata Mroku. W Vampire: The Masquerade \u2013 Justice wcielamy si\u0119 w rol\u0119 wampira, kt\u00f3ry przemierza mroczne zau\u0142ki Wenecji, poluj\u0105c na wrog\u00f3w i pod\u0105\u017caj\u0105c \u015bladem spisku.",
+        "CoverPath": "/galeria/gry13/200/2118233812.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-02",
+        "Platform": "PC, PS5",
+        "Developer": "Fast Travel Games",
+        "Publisher": "Fast Travel Games"
+    },
+    {
+        "Name": "Dead Island 2: Haus",
+        "Description": "Pierwszy du\u017cy dodatek do gry akcji FPP pod tytu\u0142em Dead Island 2. W Dead Island 2: Haus trafiamy do luksusowej willi w Malibu, b\u0119d\u0105cej siedzib\u0105 z\u0142owieszczej sekty. Opr\u00f3cz nowych zada\u0144, add-on wprowadza niedost\u0119pny wcze\u015bniej arsena\u0142 i dodatkowe umiej\u0119tno\u015bci.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/1821415609.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-02",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Deep Silver Dambuster Studios",
+        "Publisher": "Deep Silver / Plaion"
+    },
+    {
+        "Name": "Atomic Heart",
+        "Description": "FPS, w kt\u00f3rym trafiamy do retrofuturystycznej wersji Zwi\u0105zku Radzieckiego. W Atomic Heart wcielamy si\u0119 w tajnego agenta, a naszym zadaniem jest zbadanie sekretnej plac\u00f3wki, w kt\u00f3rej rozp\u0119ta\u0142 si\u0119 bunt maszyn, i zaprowadzenie w niej porz\u0105dku, nim dojdzie do globalnej katastrofy.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/516618953.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-02-21",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Mundfish",
+        "Publisher": "Focus Entertainment / Focus Home Interactive"
+    },
+    {
+        "Name": "Remnant II: The Awakened King",
+        "Description": "Pierwszy du\u017cy dodatek do gry akcji TPP z elementami RPG pod tytu\u0142em Remnant II. W Remnant II: The Awakened King trafiamy do znajduj\u0105cego si\u0119 w \u015bwiecie Losomn miasteczka Dran, a naszym zadaniem jest pokonanie szalonego Jedynego Prawdziwego Kr\u00f3la.",
+        "CoverPath": "/galeria/gry13/200/2127401281.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-11-14",
+        "Platform": "PC, PS5, XSX",
+        "Developer": "Gunfire Games",
+        "Publisher": "Gearbox Publishing"
+    },
+    {
+        "Name": "Horizon: Forbidden West - Edycja kompletna",
+        "Description": "Kompletne wydanie przygodowej gry akcji TPP z otwartym \u015bwiatem i elementami RPG pod tytu\u0142em Horizon: Forbidden West. Opr\u00f3cz podstawowej wersji tej produkcji, Horizon Forbidden West: Complete Edition zawiera m.in. DLC Burning Shores.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/-2029333625.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-10-06",
+        "Platform": "PC, PS5",
+        "Developer": "Guerrilla Games / Nixxes Software",
+        "Publisher": "Sony Interactive Entertainment"
+    },
+    {
+        "Name": "Like a Dragon: Ishin",
+        "Description": "Like a Dragon: Ishin to remake samurajskiego spin-offu cyklu Yakuza. Gra przenosi nas do XIX-wiecznej Japonii i obsadza w roli samuraja szukaj\u0105cego mordercy swojego mentora. Produkcja oferuje otwarty \u015bwiat, zr\u0119czno\u015bciowy system walki oraz bogaty zestaw minigierek.",
+        "CoverPath": "https://cdn.gracza.pl/i/h/10/605405312.jpg",
+        "Category": "Akcji",
+        "ReleaseDate": "2023-02-21",
+        "Platform": "PC, PS5, XSX, PS4, XONE",
+        "Developer": "Ryu ga Gotoku Studio",
+        "Publisher": "SEGA"
+    }
+]
