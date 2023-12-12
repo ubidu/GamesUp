@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GamesUp.Api.props" />
+</Project>
