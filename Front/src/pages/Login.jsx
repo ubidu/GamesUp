@@ -1,9 +1,37 @@
-import React from "react";
+import React, { useState } from 'react';
 import { TEInput, TERipple } from "tw-elements-react";
-import MouseIcon from '../components/Logo.png'
+import { useNavigate } from 'react-router-dom';
+import AuthService from '../services/auth.service.jsx'; 
 
-export default function login(): JSX.Element {
+const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [token, setToken] = useState(null); // Added state for token
+
+  const navigate = useNavigate();
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      await AuthService.login(email, password).then(
+        () => {
+          navigate("/");
+          window.location.reload();
+        },
+        (error) => {
+          console.log(error);
+          console.log("Invalid email or password")
+          prompt("Invalid email or password");
+        }
+      );
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+
   return (
+
     <section className="h-full bg-black dark:bg-neutral-700 transition">
       <div className="container h-full p-10">
         <div className="g-6 flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200">
@@ -17,7 +45,6 @@ export default function login(): JSX.Element {
                     <div className="text-center">
                       <img
                         className="mx-auto w-48"
-                        src={MouseIcon}
                         alt="logo"
                       />
                       <h4 className="mb-12 mt-1 pb-1 text-xl font-semibold">
@@ -25,37 +52,30 @@ export default function login(): JSX.Element {
                       </h4>
                     </div>
 
-                    <form>
+                    <form onSubmit={handleLogin}>
                       <p className="mb-4">Zaloguj się do swojego konta:</p>
-                      {/* <!--Username input--> */}
-                      <TEInput
-                        type="text"
-                        label="Login"
-                        className="mb-4"
-                      ></TEInput>
-
-                      {/* <!--Password input--> */}
-                      <TEInput
-                        type="password"
-                        label="Hasło"
-                        className="mb-4"
-                      ></TEInput>
-
-                      {/* <!--Submit button--> */}
-                      <div className="mb-12 pb-1 pt-1 text-center">
-                        <TERipple rippleColor="light" className="w-full">
-                          <button
-                            className="mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
-                            type="button"
+                      {handleLogin}
+      <input
+        type="text"
+        placeholder="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <input
+        type="password"
+        placeholder="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      <button type="submit"                             className="mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
+                            
                             style={{
                               background:
                                 "linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593)",
-                            }}
-                          >
-                            Zaloguj się
-                          </button>
-                        </TERipple>
+                            }}>Log in</button>
 
+                      {/* <!--Submit button--> */}
+                      <div className="flex items-center justify-between pb-6">
                         {/* <!--Forgot password link--> */}
                         <a href="#!">Zapomniałeś hasła?</a>
                       </div>
@@ -104,3 +124,5 @@ export default function login(): JSX.Element {
     </section>
   );
 }
+
+export default Login;

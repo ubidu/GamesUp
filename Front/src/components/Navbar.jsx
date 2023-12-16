@@ -1,8 +1,25 @@
-import React from 'react'
-import logoimage from './Logo.png' 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import logoimage from '../img/Logo.png' ;
+import AuthService from "../services/auth.service";
+import { useState, useEffect } from "react";
 
-const Navbar = () => {
+
+
+
+function Navbar() {
+    const [currentUser, setCurrentUser] = useState(undefined);
+  
+    useEffect(() => {
+      const user = AuthService.getCurrentUser();
+  
+      if (user) {
+        setCurrentUser(user);
+      }
+    }, []);
+  
+    const logOut = () => {
+      AuthService.logout();
+    };
   return (
 
 <div className='flex items-center container justify-between  m-auto left-0 right-0 p-12   z-[100] w-[1000px]' >
@@ -34,15 +51,36 @@ const Navbar = () => {
                 />
             </div>
         </form>
+         </div>  
+
             
-        <Link to='/login'>
-            <button className='text-white pr-4 hover:scale-105 transition'><a href="#">Zaloguj się</a></button>
-            </Link>
-            <Link to='/register'>
-            <button className='bg-gradient px-6 py-2 rounded cursor-pointer text-white hover:scale-105 transition'>Zarejestruj się</button>
-            </Link>
-        </div>
-    </div>
+
+            
+        {currentUser ? (
+          <div className="">
+            <li className="">
+              <a href="/login" className="text-white pr-4 hover:scale-105 transition" onClick={logOut}>
+                Logout
+              </a>
+            </li>
+          </div>
+        ) : (
+          <div className="flex justif-center align-center items-center">
+            <li className="list-none text-white pr-4 hover:scale-105 transition">
+              <Link to={"/login"} className="text-white">
+                Login
+              </Link>
+            </li>
+
+            <li className="list-none bg-gradient px-6 py-2 rounded cursor-pointer text-white hover:scale-105 transition">
+              <Link to={"/signup"} className="text-white">
+                Sign up
+              </Link>
+            </li>
+          </div>
+        )}
+
+         </div>
 
   )
 }

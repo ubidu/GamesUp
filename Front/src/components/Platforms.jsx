@@ -1,7 +1,7 @@
 import React from 'react'
-import MouseIcon from './Logo.png' // replace with actual path
-import XboxIcon from './Logo.png' // replace with actual path
-import PS5Icon from './Logo.png' // replace with actual path
+import MouseIcon from '../img/Logo.png' // replace with actual path
+import XboxIcon from '../img/Logo.png' // replace with actual path
+import PS5Icon from '../img/Logo.png' // replace with actual path
 
 export default function Platforms() {
   return (
