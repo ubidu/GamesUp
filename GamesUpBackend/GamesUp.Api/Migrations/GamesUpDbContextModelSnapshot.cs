@@ -88,8 +88,8 @@ namespace GamesUp.Migrations
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("Date");
 
-                    b.Property<int?>("UserListId")
-                        .HasColumnType("integer");
+                    b.Property<Guid?>("UserListId")
+                        .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
@@ -179,11 +179,9 @@ namespace GamesUp.Migrations
 
             modelBuilder.Entity("GamesUp.Models.UserList", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                        .HasColumnType("uuid");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -195,7 +193,9 @@ namespace GamesUp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserList");
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserLists");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -382,6 +382,17 @@ namespace GamesUp.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("GamesUp.Models.UserList", b =>
+                {
+                    b.HasOne("GamesUp.Models.User", "User")
+                        .WithMany("UserLists")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -431,6 +442,11 @@ namespace GamesUp.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("GamesUp.Models.User", b =>
+                {
+                    b.Navigation("UserLists");
                 });
 
             modelBuilder.Entity("GamesUp.Models.UserList", b =>

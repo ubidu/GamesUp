@@ -30,7 +30,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.GamesUp.Api: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.GamesUp.Api: http">
     <configuration name="GamesUp.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/GamesUp.Api/GamesUp.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -86,7 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1702392501786</updated>
       <workItem from="1702392510696" duration="4629000" />
-      <workItem from="1702407350981" duration="3372000" />
+      <workItem from="1704378188757" duration="36000" />
+      <workItem from="1704378888125" duration="1808000" />
+      <workItem from="1704384567451" duration="451000" />
+      <workItem from="1704409073545" duration="195000" />
+      <workItem from="1704409923636" duration="3178000" />
+      <workItem from="1704413172399" duration="64000" />
+      <workItem from="1704413252638" duration="163000" />
+      <workItem from="1704413636012" duration="31000" />
     </task>
     <servers />
   </component>

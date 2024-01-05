@@ -219,8 +219,28 @@ public class UserController : ControllerBase
 
         return NoContent();
     }
-    [HttpPost("AddNewList")]
-    public async Task<IActionResult> AddNewList([FromBody] UserListAddModel model)
+    [HttpPost("CreateList")]
+    public async Task<IActionResult> CreateList([FromBody] UserListCreateModel model)
+    {
+        var user = await _userManager.GetUserAsync(HttpContext.User);
+        if (user == null)
+        {
+            return NotFound("Użytkownik nie znaleziony.");
+        }
+
+        var userList = new UserList
+        {
+            Name = model.Name,
+            UserId = user.Id
+        };
+
+        _context.UserLists.Add(userList);
+        await _context.SaveChangesAsync();
+
+        return Ok("Lista utworzona pomyślnie.");
+    }
+    [HttpPost("AddGameToList")]
+    public async Task<IActionResult> AddGameToList([FromBody] GameToListAddModel model)
     {
         var user = await _userManager.GetUserAsync(HttpContext.User);
 
@@ -229,18 +249,56 @@ public class UserController : ControllerBase
             return NotFound();
         }
 
-        var newList = new UserList
-        {
-            Name = model.Name,
-            UserId = user.Id, // Przypisujemy identyfikator zalogowanego użytkownika
-        };
+        var userList = await _context.UserLists
+            .Include(ul => ul.Games)
+            .FirstOrDefaultAsync(ul => ul.UserId == user.Id && ul.Name == model.ListName);
 
-        _context.UserList.Add(newList);
+        if (userList == null)
+        {
+            return NotFound("User list not found");
+        }
+
+        var game = await _context.Games.FindAsync(model.GameId);
+
+        if (game == null)
+        {
+            return NotFound("Game not found");
+        }
+
+        if (userList.Games.All(g => g.Id != game.Id))
+        {
+            userList.Games.Add(game);
+            await _context.SaveChangesAsync();
+        }
+
+        return Ok();
+    }
+
+    
+    [HttpDelete("DeleteList/{listName}")]
+    public async Task<IActionResult> DeleteList(string listName)
+    {
+        var user = await _userManager.GetUserAsync(HttpContext.User);
+        if (user == null)
+        {
+            return NotFound("Użytkownik nie znaleziony.");
+        }
+
+        var userList = await _context.UserLists
+            .FirstOrDefaultAsync(ul => ul.Name == listName && ul.UserId == user.Id);
+
+        if (userList == null)
+        {
+            return NotFound("Lista nie istnieje lub nie należy do użytkownika.");
+        }
+
+        _context.UserLists.Remove(userList);
         await _context.SaveChangesAsync();
 
-        return Ok(new { ListId = newList.Id });
+        return NoContent();
     }
-    [HttpGet("UserLists")]
+
+    [HttpGet("GetUserLists")]
     public async Task<IActionResult> GetUserLists()
     {
         var user = await _userManager.GetUserAsync(HttpContext.User);
@@ -250,114 +308,68 @@ public class UserController : ControllerBase
             return NotFound();
         }
 
-        var userLists = await _context.UserList
+        var userLists = await _context.UserLists
             .Where(ul => ul.UserId == user.Id)
             .Select(ul => new
             {
-                ListId = ul.Id,
-                ListName = ul.Name,
-                Games = ul.Games.Select(g => new
-                {
-                    GameId = g.Id,
-                    GameName = g.Name, // Zakładam, że w modelu Game jest właściwość Name
-                    // Dodaj inne właściwości gry, jeśli to konieczne
-                }).ToList()
+                ul.Id,
+                ul.Name,
+                ul.UserId
             })
             .ToListAsync();
 
         return Ok(userLists);
     }
-    [HttpPost("AddGameToUserList")]
-    public async Task<IActionResult> AddGameToUserList([FromBody] UserListGameAddModel model)
+    [HttpGet("GetUserListGames/{listId}")]
+    public async Task<IActionResult> GetUserListGames(Guid listId)
     {
-        var user = await _userManager.GetUserAsync(HttpContext.User);
+        var userList = await _context.UserLists
+            .Include(ul => ul.Games)
+            .FirstOrDefaultAsync(ul => ul.Id == listId);
 
-        if (user == null)
+        if (userList == null)
         {
             return NotFound();
         }
 
-        var userList = await _context.UserList
-            .Include(ul => ul.Games)
+        var games = userList.Games;
+        return Ok(games);
+    }
+    
+    [HttpDelete("RemoveGameFromList")]
+    public async Task<IActionResult> RemoveGameFromList([FromBody] GameRemoveFromListModel model)
+    {
+        var user = await _userManager.GetUserAsync(HttpContext.User);
+        if (user == null)
+        {
+            return NotFound("Użytkownik nie znaleziony.");
+        }
+
+        var userList = await _context.UserLists
             .FirstOrDefaultAsync(ul => ul.Name == model.ListName && ul.UserId == user.Id);
 
         if (userList == null)
         {
-            return NotFound("Nie znaleziono listy o podanej nazwie i przypisanym użytkowniku.");
+            return NotFound("Lista nie istnieje lub nie należy do użytkownika.");
         }
 
         var game = await _context.Games.FindAsync(model.GameId);
 
         if (game == null)
         {
-            return NotFound("Nie znaleziono gry o podanym identyfikatorze.");
+            return NotFound("Gra nie istnieje.");
         }
 
-        if (userList.Games.Any(g => g.Id == model.GameId))
+        var gameToRemove = userList.Games.FirstOrDefault(g => g.Id == game.Id);
+
+        if (gameToRemove != null)
         {
-            return BadRequest("Gra już istnieje na liście.");
+            userList.Games.Remove(gameToRemove);
+            await _context.SaveChangesAsync();
         }
 
-        userList.Games.Add(game);
-        await _context.SaveChangesAsync();
-
-        return Ok(new { GameId = game.Id });
+        return NoContent();
     }
-    [HttpDelete("RemoveUserList")]
-    public async Task<IActionResult> RemoveUserList(string listName)
-    {
-        var user = await _userManager.GetUserAsync(HttpContext.User);
-
-        if (user == null)
-        {
-            return NotFound();
-        }
-
-        var userList = await _context.UserList
-            .Include(ul => ul.Games)
-            .FirstOrDefaultAsync(ul => ul.Name == listName && ul.UserId == user.Id);
-
-        if (userList == null)
-        {
-            return NotFound("Nie znaleziono listy o podanej nazwie i przypisanym użytkowniku.");
-        }
-
-        _context.UserList.Remove(userList);
-        await _context.SaveChangesAsync();
-
-        return Ok(new { Message = "Lista została usunięta pomyślnie." });
-    }
-    [HttpDelete("RemoveGameFromUserList")]
-    public async Task<IActionResult> RemoveGameFromUserList([FromBody] UserListGameAddModel model)
-    {
-        var user = await _userManager.GetUserAsync(HttpContext.User);
-
-        if (user == null)
-        {
-            return NotFound();
-        }
-
-        var userList = await _context.UserList
-            .Include(ul => ul.Games)
-            .FirstOrDefaultAsync(ul => ul.Name == model.ListName && ul.UserId == user.Id);
-
-        if (userList == null)
-        {
-            return NotFound("Nie znaleziono listy o podanej nazwie i przypisanym użytkowniku.");
-        }
-
-        var gameToRemove = userList.Games.FirstOrDefault(g => g.Id == model.GameId);
-
-        if (gameToRemove == null)
-        {
-            return NotFound("Nie znaleziono gry o podanym identyfikatorze na liście.");
-        }
-
-        userList.Games.Remove(gameToRemove);
-        await _context.SaveChangesAsync();
-
-        return Ok(new { GameId = gameToRemove.Id, Message = "Gra została usunięta z listy pomyślnie." });
-    }
-
-
+    
+    
 }
