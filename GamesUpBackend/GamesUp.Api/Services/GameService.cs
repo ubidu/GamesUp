@@ -76,4 +76,11 @@ public class GameService : IGameService
         
         return Result.Deleted;
     }
+    public ErrorOr<List<Game>> CreateGames(List<Game> games)
+    {
+        _dbContext.Games.AddRange(games);
+        _dbContext.SaveChanges();
+
+        return games;
+    }
 }

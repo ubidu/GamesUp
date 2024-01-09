@@ -14,6 +14,9 @@ public class GamesUpDbContext : IdentityDbContext<User>
     public DbSet<User> Users { get; set; } = null!;
     public DbSet<Game> Games { get; set; } = null!;
     public DbSet<FavoriteGames> FavoriteGames { get; set; } = null!;
+    public DbSet<GamesToFinish> GamesToFinish { get; set; } = null!;
+    public DbSet<UserList> UserLists { get; set; } = null!;
+    public DbSet<CompletionGames> CompletionGames { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -24,5 +27,20 @@ public class GamesUpDbContext : IdentityDbContext<User>
             .HasMany(u => u.FavoriteGames)
             .WithMany()
             .UsingEntity<FavoriteGames>();
+        
+        modelBuilder.Entity<User>()
+            .HasMany(u => u.CompletionGames)
+            .WithMany()
+            .UsingEntity<CompletionGames>();
+        
+        modelBuilder.Entity<User>()
+            .HasMany(u => u.GamesToFinish)
+            .WithMany()
+            .UsingEntity<GamesToFinish>();
+        
+        modelBuilder.Entity<UserList>()
+            .HasOne(ul => ul.User)
+            .WithMany(u => u.UserLists)
+            .HasForeignKey(ul => ul.UserId);
     }
 }
