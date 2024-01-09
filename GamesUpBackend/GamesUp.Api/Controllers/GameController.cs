@@ -37,28 +37,34 @@ public class GameController : ApiController
     
 
     [HttpPost]
-    public IActionResult CreateGame(CreateGameRequest request)
+    public IActionResult CreateGames(List<CreateGameRequest> requests)
     {
-        ErrorOr<Game> requestToGameResult = Game.Create(
-            request.Name,
-            request.Description,
-            request.CoverPath,
-            request.Category,
-            request.ReleaseDate,
-            request.Platform,
-            request.Developer,
-            request.Publisher);
+        var games = new List<Game>();
 
-        if (requestToGameResult.IsError)
+        foreach (var request in requests)
         {
-            return Problem(requestToGameResult.Errors);
+            ErrorOr<Game> requestToGameResult = Game.Create(
+                request.Name,
+                request.Description,
+                request.CoverPath,
+                request.Category,
+                request.ReleaseDate,
+                request.Platform,
+                request.Developer,
+                request.Publisher);
+
+            if (requestToGameResult.IsError)
+            {
+                return Problem(requestToGameResult.Errors);
+            }
+
+            games.Add(requestToGameResult.Value);
         }
 
-        var game = requestToGameResult.Value;
-        ErrorOr<Created> createGameResult = _gameService.CreateGame(game);
+        ErrorOr<List<Game>> createGamesResult = _gameService.CreateGames(games);
 
-        return createGameResult.Match(
-            created => CreatedAtGetGame(game),
+        return createGamesResult.Match(
+            created => Ok($"Created {created.Count} games."),
             errors => Problem(errors));
     }
 
