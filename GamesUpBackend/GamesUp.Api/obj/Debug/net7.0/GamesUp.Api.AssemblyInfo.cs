@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GamesUp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c387ef3d53aef3046f1ea6dcca89a80243275b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GamesUp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GamesUp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
