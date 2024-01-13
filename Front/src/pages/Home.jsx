@@ -1,13 +1,17 @@
-import React from 'react'
 import Main from '../components/Main'
-import requests from '../Requests'
 import Row from '../components/Row'
 import Platforms from '../components/Platforms'
+import Video from '../components/Video'
+import Video2 from '../components/Video2'
+import Video3 from '../components/Video3'
 
-export const Home = () => {
+function Home() {
   return (
     <>
       <Main/>
+      <Video/>
+      <Video2/>
+      <Video3/>
       <Platforms/>
       <Row/>
     </>
@@ -15,4 +19,5 @@ export const Home = () => {
 }
 
 
-export default Home
+
+export default Home;
