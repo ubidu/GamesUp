@@ -16,7 +16,7 @@ public class Game
     public string Platform { get; private set; }
     public string Developer { get; private set; }
     public string Publisher { get; private set; }
-    
+    public ICollection<Review> Reviews { get; set; } = new List<Review>();
 
     private Game() {}
 
