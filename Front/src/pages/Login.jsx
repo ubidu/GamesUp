@@ -1,33 +1,29 @@
-import React, { useState} from 'react';
-import { TEInput, TERipple } from "tw-elements-react";
+// login.jsx
+import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import AuthService from '../services/auth.service.jsx'; 
-import logoimage from '../img/Logo.png' ;
-
+import { useAuthDispatch } from '../context/AuthContext';  // Importujemy hook z kontekstu
+import AuthService from '../services/auth.service.jsx';
+import logoimage from '../img/Logo.png';
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [token, setToken] = useState(null); // Added state for token
 
+  const dispatch = useAuthDispatch();  // Korzystamy z hooka z kontekstu
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      await AuthService.login(email, password).then(
-        () => {
-          navigate("/");
-          window.location.reload();
-        },
-        (error) => {
-          console.log(error);
-          console.log("Invalid email or password")
-          prompt("Invalid email or password");
-        }
-      );
+      console.log("Próbuję zalogować...");
+      const user = await AuthService.login(email, password);
+      console.log("Uzyskano odpowiedź z serwera:", user);
+
+      dispatch({ type: 'LOGIN', payload: user });  // Zapisujemy użytkownika do globalnego stanu
+      navigate("/");
+      window.location.reload();
     } catch (err) {
-      console.log(err);
+      console.log("Wystąpił błąd podczas logowania:", err);
     }
   };
 

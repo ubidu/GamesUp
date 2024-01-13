@@ -92,13 +92,25 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 {
+    app.UseCors(builder =>
+    {
+        builder.WithOrigins("http://localhost:3000") // Dodaj adresy, z których przyjmujesz żądania
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials(); // Dodaj tę linijkę, jeśli korzystasz z uwierzytelniania z użyciem ciasteczek (cookies)
+    });
+    
     app.UseExceptionHandler("/error");
     if (app.Environment.IsDevelopment())
     {
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+    
+ 
+    
     app.UseHttpsRedirection();
+    app.UseCors("http://localhost:3000");
     app.UseAuthentication();
     app.UseAuthorization();
     app.MapControllers();

@@ -22,6 +22,7 @@ body{
   background-image: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
 }
 
+
 .border-bottom{
   border-bottom: 1px solid gray;
 }
@@ -35,11 +36,43 @@ body{
 .container{
   padding-left: 1rem;
   padding-right: 1rem;
-  margin: 0 auto;
+  margin: 100px auto;
   width: 1400px;
   max-width: 100%;
+}
+
+.containernavbar{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 50px auto;
+  width: 1400px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 20px auto;;
+  }
 }
 
 .border-radius{
   border-radius: 10px 10px 0 0;
 }
+
+
+@keyframes growUpAnimation {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.animate-growUpBlock {
+  animation: growUpAnimation 0.5s ease-out;
+}
+
+
+
+

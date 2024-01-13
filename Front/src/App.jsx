@@ -9,6 +9,8 @@ import Login from './pages/Login';
 import Register from './pages/SignUp';
 import GameDetail from './pages/GameDetail';
 import MyComponent from './components/Row';
+import Favorites from './components/Favorites';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Register />} />
+        <Route path='/favorites' element={<Favorites />} />
         <Route path="/games" element={<MyComponent />} />
         <Route path="/game/:id" element={<GameDetail />} />
       </Routes>

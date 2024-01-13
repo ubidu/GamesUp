@@ -37,7 +37,7 @@ const Main = () => {
   };
 
   return (
-    <div className='rounded-lg h-[300px] lg:h-[400px] m-auto left-0 right-0   text-white w-full container'>
+    <div className='rounded-lg h-[300px] lg:h-[400px] m-auto left-0 right-0 text-white w-full container'>
       {randomGame && (
         <div className='relative h-full rounded-lg' key={uuidv4()}>
           <img className='w-full rounded-lg h-full object-cover' src={randomGame.coverPath} alt="" />
@@ -54,6 +54,10 @@ const Main = () => {
             </div>
           </div>
         </div>
+
+        
+
+        
       )}
     </div>
   );
