@@ -1,19 +1,23 @@
 import axios from 'axios';
-import authHeader from './auth-header';
 
-const API_URL = 'http://localhost:5157/Game';
+const API_URL = 'http://localhost:5157';
 
-const getAllPublicPosts = () => {
-    return axios.get(API_URL + '/public');
+const PostService = {
+  getFavoriteGames: () => {
+    // Assume that you have a token stored after user login
+    const token = localStorage.getItem('token'); // Replace with your actual token retrieval logic
+
+    // Set up headers with the authorization token
+    const headers = {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    };
+
+    // Make the request to the /GetFavoriteGames endpoint
+    return axios.get(`${API_URL}/GetFavoriteGames`, { headers });
+  },
 };
 
-const getAllPrivatePosts = () => {
-    return axios.get(API_URL + '/private', { headers: authHeader() });
-};
+export default PostService;
 
-const postService = {
-    getAllPublicPosts,
-    getAllPrivatePosts,
-};
 
-export default postService;

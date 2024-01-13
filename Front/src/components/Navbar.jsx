@@ -22,7 +22,7 @@ function Navbar() {
     };
   return (
 
-<div className='flex items-center container justify-between  m-auto left-0 right-0 p-12   z-[100] w-[1000px]' >
+<div className='flex items-center m-0 containernavbar justify-between  left-0 right-0   z-[100] w-[1000px]' >
         <Link to='/'>
             <img src={logoimage} className='w-[180px] hover:scale-105 transition' alt="" />
         </Link>
@@ -57,12 +57,18 @@ function Navbar() {
 
             
         {currentUser ? (
-          <div className="">
+          <div className="flex justif-center align-center items-center">
             <li className="">
               <a href="/login" className="text-white pr-4 hover:scale-105 transition" onClick={logOut}>
                 Logout
               </a>
             </li>
+
+            <li className=''>
+            <Link to='/favorites' className='text-white pr-4 hover:scale-105 transition'>
+              Favorites
+            </Link>
+          </li>
           </div>
         ) : (
           <div className="flex justif-center align-center items-center">

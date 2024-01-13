@@ -111,6 +111,9 @@ var app = builder.Build();
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+    
+ 
+    
     app.UseHttpsRedirection();
     app.UseCors("http://localhost:3000");
     app.UseAuthentication();
