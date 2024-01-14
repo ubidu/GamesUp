@@ -4,7 +4,7 @@ import AuthService from '../services/auth.service';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
 import { Link } from 'react-router-dom'; // Dodajemy Link z React Router
 
-const Favorites = () => {
+const GameToFinish = () => {
   const [favoriteGames, setFavoriteGames] = useState([]);
   const [error, setError] = useState(null);
   const [detailedGames, setDetailedGames] = useState([]);
@@ -24,7 +24,7 @@ const Favorites = () => {
             },
           };
 
-          const response = await axios.get('http://localhost:5157/GetFavoriteGames', config);
+          const response = await axios.get('http://localhost:5157/GetGamesToFinish', config);
           setFavoriteGames(response.data);
         }
       } catch (error) {
@@ -72,7 +72,7 @@ const Favorites = () => {
           },
         };
 
-        await axios.delete(`http://localhost:5157/RemoveFavoriteGame/${gameId}`, config);
+        await axios.delete(`http://localhost:5157//RemoveGameToFinish/${gameId}`, config);
 
         // Zaktualizuj listę ulubionych gier po usunięciu
         setFavoriteGames((prevFavoriteGames) => prevFavoriteGames.filter((id) => id !== gameId));
@@ -107,4 +107,4 @@ const Favorites = () => {
   );
 };
 
-export default Favorites;
+export default GameToFinish;

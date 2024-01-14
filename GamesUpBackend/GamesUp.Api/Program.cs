@@ -1,5 +1,6 @@
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json.Serialization;
 using GamesUp.Models;
 using GamesUp.Persistence;
 using GamesUp.Services;

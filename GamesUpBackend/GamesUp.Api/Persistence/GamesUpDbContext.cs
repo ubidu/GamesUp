@@ -17,6 +17,7 @@ public class GamesUpDbContext : IdentityDbContext<User>
     public DbSet<GamesToFinish> GamesToFinish { get; set; } = null!;
     public DbSet<UserList> UserLists { get; set; } = null!;
     public DbSet<CompletionGames> CompletionGames { get; set; } = null!;
+    public DbSet<Review> Reviews { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -42,5 +43,7 @@ public class GamesUpDbContext : IdentityDbContext<User>
             .HasOne(ul => ul.User)
             .WithMany(u => u.UserLists)
             .HasForeignKey(ul => ul.UserId);
+
+
     }
 }
