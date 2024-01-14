@@ -13,7 +13,7 @@
     useEffect(() => {
       const fetchGameDetail = async () => {
         try {
-          const response = await axios.get(`http://localhost:5157/Game/6a5ee9fe-9350-4ab6-81f1-9496aeb01b29`);
+          const response = await axios.get(`http://localhost:5157/Game/27fadc40-c40c-4f6b-a27a-6bb3cc41eb88`);
           setGame(response.data);
         } catch (error) {
           console.error('Błąd pobierania szczegółów gry:', error);
@@ -45,7 +45,7 @@
             style={{ borderRadius: '40px' }}
         >
             <source
-            src="https://a.ltrbxd.com/sm/upload82/7u/32/3u/1-highestrated-spiderverse.webm?k=bfe5a39d3e"
+            src="https://a.ltrbxd.com/sm/upload/82/7u/32/3u/1-highestrated-spiderverse.webm?k=bfe5a39d3e"
             type="video/webm"
             />
             <source
