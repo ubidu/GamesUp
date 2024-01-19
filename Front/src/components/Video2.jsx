@@ -13,7 +13,7 @@
     useEffect(() => {
       const fetchGameDetail = async () => {
         try {
-          const response = await axios.get(`http://localhost:5157/Game/27fadc40-c40c-4f6b-a27a-6bb3cc41eb88`);
+          const response = await axios.get(`http://localhost:5157/Game/a1f128a7-43f8-4ccb-9c6f-eaacd224b51f`);
           setGame(response.data);
         } catch (error) {
           console.error('Błąd pobierania szczegółów gry:', error);

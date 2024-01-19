@@ -22,6 +22,7 @@ const GameDetail = () => {
   const [reviewContent, setReviewContent] = useState('');
   const [reviewRating, setReviewRating] = useState(0);
   const [userReviews, setUserReviews] = useState([]);
+  const [userId, setUserId] = useState('');
 
   useEffect(() => {
     const fetchGameDetail = async () => {
@@ -57,7 +58,7 @@ const GameDetail = () => {
         headers.Authorization = `Bearer ${user.token}`;
       }
 
-      const response = await axios.get('http://localhost:5157/GetUserReviews', { headers });
+      const response = await axios.get(`http://localhost:5157/GetGameReviews/${id}`, { headers });
       setUserReviews(response.data);
     } catch (error) {
       console.error('Błąd pobierania recenzji użytkownika:', error);
@@ -134,6 +135,7 @@ const GameDetail = () => {
         gameId: id,
         content: reviewContent,
         rating: reviewRating,
+        userId: userId,
       };
 
       const response = await axios.post('http://localhost:5157/AddReview', reviewData, { headers });
@@ -282,7 +284,6 @@ const GameDetail = () => {
         </div> 
       </div>
       <div className='flex flex-wrap gap-5 items-center justify-center p-8 text-white'>
-
         <div className='flex flex-col h-[400px]  justify-between gap-3 items-center  p-4 rounded-full  bg-yellow-600 hover:scale-105 transition cursor-pointer'> 
         <FaComputer className='text-yellow-600 bg-white p-2 rounded-full bold text-[50px]' />
             <div className='flex flex-col justify-center items-center gap-3 text-lg bold'>
@@ -349,9 +350,10 @@ const GameDetail = () => {
         </div>
         <div>
           {userReviews.map((review) => (
-            <div key={review.id} className="mb-4">
-              <p>{review.content}</p>
-              <p>Ocena: {review.rating}</p>
+            <div key={review.id} className="mb-4 flex flex-col gap-5">
+              <p className='text-white'>{review.content}</p>
+              <p className='text-white'>Ocena: {review.rating}</p>
+              <p className='text-white'>Użytkownik: {review.userId}</p>
               <button
                 className="text-red-500"
                 onClick={() => handleReviewDelete(review.id)}
