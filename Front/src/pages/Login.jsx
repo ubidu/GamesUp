@@ -7,13 +7,31 @@ import logoimage from '../img/Logo.png';
 
 const Login = () => {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+    const [password, setPassword] = useState("");
+    const [emailError, setEmailError] = useState("");
+    const [passwordError, setPasswordError] = useState("");
+
 
   const dispatch = useAuthDispatch();  // Korzystamy z hooka z kontekstu
   const navigate = useNavigate();
 
+  const emailRegex = /^[a-zA-Z0-9]{3,20}@[a-zA-Z]{2,10}\.[a-zA-Z]{2,3}$/;
+  const passwordRegex = /^(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,30}$/;
+
   const handleLogin = async (e) => {
-    e.preventDefault();
+      e.preventDefault();
+      // Resetowanie komunikatów o błędach przy każdym nowym logowaniu
+      setEmailError("");
+      setPasswordError("");
+      if (!emailRegex.test(email)) {
+          setEmailError("Niepoprwany e-mail");
+          return;
+      }
+
+      if (!passwordRegex.test(password)) {
+          setPasswordError("Niepoprawne hasło");
+          return;
+      }
     try {
       console.log("Próbuję zalogować...");
       const user = await AuthService.login(email, password);
@@ -60,13 +78,15 @@ const Login = () => {
         placeholder="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-      />
+                                          />
+                                          {emailError && <p className="text-sm text-red-500 mb-2">{emailError}</p>}
       <input className='flex-grow w-full px-4 py-2 mb-4 mr-4 text-base text-black transition duration-150 ease-in-out bg-white border border-gray-300 rounded-lg appearance-none focus:border-primary-600 focus:outline-none focus:shadow-outline-primary'
         type="password"
         placeholder="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
-      />
+                                          />
+                                          {passwordError && <p className="text-sm text-red-500 mb-2">{passwordError}</p>}
       <button type="submit"                             className="mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
                             
                             style={{

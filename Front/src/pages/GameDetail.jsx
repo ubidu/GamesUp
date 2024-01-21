@@ -336,7 +336,10 @@ const GameDetail = () => {
           type="number"
           placeholder="Ocena (0-10)"
           value={reviewRating}
-          onChange={(e) => setReviewRating(e.target.value)}
+          onChange={(e) => {
+            const newValue = Math.min(Math.max(0, e.target.value), 10);
+            setReviewRating(newValue);
+          }}
           className="w-full p-3 border border-gray-300 rounded mt-2 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 hover:bg-gray-50"
         />
         <button
