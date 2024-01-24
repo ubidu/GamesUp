@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "gamesup-a6d33"
-  }
+    "default": "gamesup-a6d33",
+    "prod": "gamesup-a6d33"
+  },
+  "targets": {},
+  "etags": {}
 }
