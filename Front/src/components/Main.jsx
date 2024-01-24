@@ -50,7 +50,7 @@ const Main = () => {
                 <Link to={`/game/${randomGame.id}`}>
                   <button className='bg-gradient px-6 py-2 rounded cursos-pointer text-white hover:scale-105 transition'>Odtwórz</button>
                 </Link>
-                <button className='bg-gray-800 px-6 py-2 rounded cursos-pointer text-white ml-4 hover:scale-105 transition'>Więcej informacji</button>
+                <button className='bg-gray-800 px-6 py-2 rounded cursos-pointer text-white ml-4 hover:scale-105 transition'>dupa</button>
               </div>
               <h1 className='text-sm md:text-lg mt-4 max-w-[600px]'>
                 {truncateString(randomGame.description, 150)}{randomGame.Description}
