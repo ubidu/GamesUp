@@ -45,7 +45,7 @@
             style={{ borderRadius: '40px' }}
         >
             <source
-            src="../img/alan_wake_2.mp4"
+            src="https://firebasestorage.googleapis.com/v0/b/gamesup-a6d33.appspot.com/o/alan_wake_2.mp4?alt=media&token=3563af2a-92a6-42d7-ac33-6d2193ebb53e"
             type="video/mp4"
             />
         </video>
