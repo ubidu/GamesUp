@@ -13,7 +13,7 @@
     useEffect(() => {
       const fetchGameDetail = async () => {
         try {
-          const response = await axios.get(`https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/Game/5813e83c-d0df-4f9f-8843-b403e560f431`);
+          const response = await axios.get(`https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/Game/ac095603-496b-47f7-9204-69c3abcdee41`);
           setGame(response.data);
         } catch (error) {
           console.error('Błąd pobierania szczegółów gry:', error);
@@ -45,11 +45,7 @@
             style={{ borderRadius: '40px' }}
         >
             <source
-            src="https://a.ltrbxd.com/sm/upload/82/7u/32/3u/1-highestrated-spiderverse.webm?k=bfe5a39d3e"
-            type="video/webm"
-            />
-            <source
-            src="https://a.ltrbxd.com/sm/upload/u2/7c/47/cv/1-highestrated-spiderverse.mp4?k=a0cf93e7df"
+            src="../img/alan_wake_2.mp4"
             type="video/mp4"
             />
         </video>
