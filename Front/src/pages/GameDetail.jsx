@@ -36,7 +36,7 @@ const GameDetail = () => {
           headers.Authorization = `Bearer ${user.token}`;
         }
 
-        const response = await axios.get(`http://localhost:5157/Game/${id}`, { headers });
+        const response = await axios.get(`https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/Game/${id}`, { headers });
         setGame(response.data);
       } catch (error) {
         console.error('Błąd pobierania szczegółów gry:', error);
@@ -58,7 +58,7 @@ const GameDetail = () => {
         headers.Authorization = `Bearer ${user.token}`;
       }
 
-      const response = await axios.get(`http://localhost:5157/GetGameReviews/${id}`, { headers });
+      const response = await axios.get(`https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/GetGameReviews/${id}`, { headers });
       setUserReviews(response.data);
     } catch (error) {
       console.error('Błąd pobierania recenzji użytkownika:', error);
@@ -76,7 +76,7 @@ const GameDetail = () => {
         headers.Authorization = `Bearer ${user.token}`;
       }
 
-      const response = await axios.post('http://localhost:5157/AddFavoriteGame', { gameId: id }, { headers });
+      const response = await axios.post('https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/AddFavoriteGame', { gameId: id }, { headers });
       console.log('Gra dodana do ulubionych:', response.data);
     } catch (error) {
       console.error('Błąd dodawania do ulubionych:', error);
@@ -94,7 +94,7 @@ const GameDetail = () => {
         headers.Authorization = `Bearer ${user.token}`;
       }
 
-      const response = await axios.post('http://localhost:5157/AddCompletedGame', { gameId: id }, { headers });
+      const response = await axios.post('https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/AddCompletedGame', { gameId: id }, { headers });
       console.log('Gra dodana do ulubionych:', response.data);
     } catch (error) {
       console.error('Błąd dodawania do ulubionych:', error);
@@ -112,7 +112,7 @@ const GameDetail = () => {
         headers.Authorization = `Bearer ${user.token}`;
       }
 
-      const response = await axios.post('http://localhost:5157/AddGameToFinish', { gameId: id }, { headers });
+      const response = await axios.post('https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/AddGameToFinish', { gameId: id }, { headers });
       console.log('Gra dodana do ulubionych:', response.data);
     } catch (error) {
       console.error('Błąd dodawania do ulubionych:', error);
@@ -138,7 +138,7 @@ const GameDetail = () => {
         userId: userId,
       };
 
-      const response = await axios.post('http://localhost:5157/AddReview', reviewData, { headers });
+      const response = await axios.post('https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/AddReview', reviewData, { headers });
       console.log('Recenzja dodana:', response.data);
 
       fetchUserReviews();
@@ -158,7 +158,7 @@ const GameDetail = () => {
         headers.Authorization = `Bearer ${user.token}`;
       }
 
-      const response = await axios.delete(`http://localhost:5157/DeleteReview/${reviewId}`, { headers });
+      const response = await axios.delete(`https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/DeleteReview/${reviewId}`, { headers });
       console.log('Recenzja usunięta:', response.data);
 
       fetchUserReviews();
