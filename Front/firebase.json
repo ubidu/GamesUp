@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "chujwpizde",
+    "public": "Front/build",
     "ignore": [
       "firebase.json",
       "**/.*",
