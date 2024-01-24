@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5157';
+const API_URL = 'https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io';
 
 const PostService = {
   getFavoriteGames: () => {

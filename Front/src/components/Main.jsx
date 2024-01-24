@@ -10,7 +10,7 @@ const Main = () => {
   useEffect(() => {
     const fetchGames = async () => {
       try {
-        const response = await axios.get('http://localhost:5157/Game');
+        const response = await axios.get('https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/Game');
         setGames(response.data);
       } catch (error) {
         console.error('Błąd pobierania gier:', error);

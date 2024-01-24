@@ -24,7 +24,7 @@ const GameToFinish = () => {
             },
           };
 
-          const response = await axios.get('http://localhost:5157/GetGamesToFinish', config);
+          const response = await axios.get('https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/GetGamesToFinish', config);
           setFavoriteGames(response.data);
         }
       } catch (error) {
@@ -41,7 +41,7 @@ const GameToFinish = () => {
       try {
         const detailedGamesData = await Promise.all(
           favoriteGames.map(async (gameId) => {
-            const response = await axios.get(`http://localhost:5157/Game/${gameId}`);
+            const response = await axios.get(`https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/Game/${gameId}`);
             return response.data;
           })
         );
@@ -72,7 +72,7 @@ const GameToFinish = () => {
           },
         };
 
-        await axios.delete(`http://localhost:5157//RemoveGameToFinish/${gameId}`, config);
+        await axios.delete(`https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/RemoveGameToFinish/${gameId}`, config);
 
         // Zaktualizuj listę ulubionych gier po usunięciu
         setFavoriteGames((prevFavoriteGames) => prevFavoriteGames.filter((id) => id !== gameId));

@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 const signup = (email, password, username) => {
-    return axios.post("http://localhost:5157/Authentication/register", {
+    return axios.post("https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/Authentication/register", {
         email,
         password,
         username
@@ -25,7 +25,7 @@ const signup = (email, password, username) => {
 
 // auth-service.jsx
 const login = (email, password) => {
-  return axios.post("http://localhost:5157/Authentication/login", {
+  return axios.post("https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/Authentication/login", {
     email,
     password
   })
