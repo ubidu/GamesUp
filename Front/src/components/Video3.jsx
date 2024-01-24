@@ -43,12 +43,9 @@
             poster="https://a.ltrbxd.com/resized/sm/upload/8n/h1/ex/59/spider%20verse%20alt-0-1400-0-788-crop.jpg?k=ea71b7d8fc"
             style={{ borderRadius: '40px' }}
         >
+
             <source
-            src="https://a.ltrbxd.com/sm/upload/82/7u/32/3u/1-highestrated-spiderverse.webm?k=bfe5a39d3e"
-            type="video/webm"
-            />
-            <source
-            src="https://a.ltrbxd.com/sm/upload/u2/7c/47/cv/1-highestrated-spiderverse.mp4?k=a0cf93e7df"
+            src="https://firebasestorage.googleapis.com/v0/b/gamesup-a6d33.appspot.com/o/counter_strike_2.mp4?alt=media&token=0698a793-f5f5-4959-ab4e-df1e7b634c5c"
             type="video/mp4"
             />
         </video>
