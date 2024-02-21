@@ -12,6 +12,17 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 {
+    string host = Environment.GetEnvironmentVariable("PGHOST");
+    string database = Environment.GetEnvironmentVariable("PGDATABASE");
+    string port = Environment.GetEnvironmentVariable("PGPORT");
+    string user = Environment.GetEnvironmentVariable("PGUSER");
+    string password = Environment.GetEnvironmentVariable("PGPASSWORD");
+    string sslMode = Environment.GetEnvironmentVariable("PGSSLMODE");
+    string trustServerCertificate = Environment.GetEnvironmentVariable("PGTRUSTSERVERCERTIFICATE");
+
+    string connectionString =
+        $"Host={host};Database={database};Port={port};User Id={user};Password={password};SSL Mode={sslMode};Trust Server Certificate={trustServerCertificate}";
+    
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen(option =>
@@ -47,7 +58,7 @@ var builder = WebApplication.CreateBuilder(args);
     });
     builder.Services.AddScoped<IGameService, GameService>();
     builder.Services.AddDbContext<GamesUpDbContext>(options =>
-        options.UseNpgsql(builder.Configuration.GetConnectionString("GamesUpDb")));
+        options.UseNpgsql(connectionString));
     builder.Services.AddIdentity<User, IdentityRole>(options =>
         {
             options.ClaimsIdentity.UserIdClaimType = ClaimTypes.NameIdentifier;
@@ -95,7 +106,7 @@ var app = builder.Build();
 {
     app.UseCors(builder =>
     {
-        builder.WithOrigins("http://localhost:3000") // Dodaj adresy, z których przyjmujesz żądania
+        builder.WithOrigins("https://gamesup-a6d33.web.app") // Dodaj adresy, z których przyjmujesz żądania
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials(); // Dodaj tę linijkę, jeśli korzystasz z uwierzytelniania z użyciem ciasteczek (cookies)
@@ -111,7 +122,7 @@ var app = builder.Build();
  
     
     app.UseHttpsRedirection();
-    app.UseCors("http://localhost:3000");
+    app.UseCors("https://gamesup-a6d33.web.app");
     app.UseAuthentication();
     app.UseAuthorization();
     app.MapControllers();

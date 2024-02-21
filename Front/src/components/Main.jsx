@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
+import { Link } from 'react-router-dom'; // Dodajemy Link z React Router
 
 const Main = () => {
   const [Games, setGames] = useState([]);
@@ -9,7 +10,7 @@ const Main = () => {
   useEffect(() => {
     const fetchGames = async () => {
       try {
-        const response = await axios.get('http://localhost:5157/Game');
+        const response = await axios.get('https://gamesup-ap-dev-tmxp.2.ie-1.fl0.io/Game');
         setGames(response.data);
       } catch (error) {
         console.error('Błąd pobierania gier:', error);
@@ -45,7 +46,10 @@ const Main = () => {
             <div className='flex flex-col justify-center items-center h-full'>
               <h1 className='text-3xl md:text-5xl font-bold'>{randomGame.name}</h1>
               <div className='flex mt-4'>
-                <button className='bg-gradient px-6 py-2 rounded cursos-pointer text-white hover:scale-105 transition'>Odtwórz</button>
+                {/* Dodajemy Link do strony gry */}
+                <Link to={`/game/${randomGame.id}`}>
+                  <button className='bg-gradient px-6 py-2 rounded cursos-pointer text-white hover:scale-105 transition'>Odtwórz</button>
+                </Link>
                 <button className='bg-gray-800 px-6 py-2 rounded cursos-pointer text-white ml-4 hover:scale-105 transition'>Więcej informacji</button>
               </div>
               <h1 className='text-sm md:text-lg mt-4 max-w-[600px]'>
@@ -54,10 +58,6 @@ const Main = () => {
             </div>
           </div>
         </div>
-
-        
-
-        
       )}
     </div>
   );
