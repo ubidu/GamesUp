@@ -1,4 +1,3 @@
-using GamesUp.Contracts.Review;
 using GamesUp.Models;
 using GamesUp.Persistence;
 using Microsoft.AspNetCore.Authorization;
@@ -10,6 +9,7 @@ namespace GamesUp.Controllers;
 
 [Authorize]
 [ApiController]
+[Route("reviews")]
 public class ReviewController : ControllerBase
 {
     private readonly UserManager<User> _userManager;
@@ -21,8 +21,40 @@ public class ReviewController : ControllerBase
         _context = context;
     }
     
+    [HttpGet("{userId:guid}")]
+    public async Task<IActionResult> GetUserReviews()
+    {
+        var user = await _userManager.GetUserAsync(HttpContext.User);
+        if (user == null)
+        {
+            return NotFound();
+        }
+        
+        var reviews = await _context.Reviews
+            .Where(r => r.UserId == user.Id)
+            .ToListAsync();
+        
+        return Ok(reviews.Select(review => MapReviewResponse(review)));
+    }
+    
+    [HttpGet("GetGameReviews/{gameId:guid}")]
+    public async Task<IActionResult> GetGameReviews(Guid gameId)
+    {
+        var game = await _context.Games.FindAsync(gameId);
+        if (game == null)
+        {
+            return NotFound();
+        }
+        
+        var reviews = await _context.Reviews
+            .Where(r => r.GameId == gameId)
+            .ToListAsync();
+        
+        return Ok(reviews.Select(review => MapReviewResponse(review)));
+    }
+    
     [HttpPost("AddReview")]
-    public async Task<IActionResult> AddReview([FromBody] ReviewAddModel reviewModel)
+    public async Task<IActionResult> AddReviewAsync([FromBody] ReviewAddModel reviewModel)
     {
         var user = await _userManager.GetUserAsync(HttpContext.User);
         var game = await _context.Games.FindAsync(reviewModel.GameId);
@@ -61,38 +93,6 @@ public class ReviewController : ControllerBase
         }
         
         return Ok(MapReviewResponse(review));
-    }
-    
-    [HttpGet("GetUserReviews")]
-    public async Task<IActionResult> GetUserReviews()
-    {
-        var user = await _userManager.GetUserAsync(HttpContext.User);
-        if (user == null)
-        {
-            return NotFound();
-        }
-        
-        var reviews = await _context.Reviews
-            .Where(r => r.UserId == user.Id)
-            .ToListAsync();
-        
-        return Ok(reviews.Select(review => MapReviewResponse(review)));
-    }
-    
-    [HttpGet("GetGameReviews/{gameId:guid}")]
-    public async Task<IActionResult> GetGameReviews(Guid gameId)
-    {
-        var game = await _context.Games.FindAsync(gameId);
-        if (game == null)
-        {
-            return NotFound();
-        }
-        
-        var reviews = await _context.Reviews
-            .Where(r => r.GameId == gameId)
-            .ToListAsync();
-        
-        return Ok(reviews.Select(review => MapReviewResponse(review)));
     }
     
     [HttpDelete("DeleteReview/{reviewId:guid}")]
@@ -140,17 +140,4 @@ public class ReviewController : ControllerBase
         return Ok();
     }
     
-    private static ReviewResponse MapReviewResponse(Review review)
-    {
-        return new ReviewResponse
-        {
-            Id = review.Id,
-            Content = review.Content,
-            Rating = review.Rating,
-            CreatedAt = review.CreatedAt,
-            UserId = review.UserId,
-            GameId = review.GameId
-        };
-    }
-
 }

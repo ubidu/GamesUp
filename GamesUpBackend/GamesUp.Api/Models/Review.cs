@@ -6,8 +6,7 @@ public class Review
     public string Content { get; set; } = null!;
     public int Rating { get; set; }
     public DateTime CreatedAt { get; set; }
-    
-    public string UserId { get; set; } = null!;
+    public Guid UserId { get; set; }
     public User User { get; set; } = null!;
     public Guid GameId { get; set; }
     public Game Game { get; set; } = null!;

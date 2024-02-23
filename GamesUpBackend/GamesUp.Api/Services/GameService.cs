@@ -1,86 +1,111 @@
-using ErrorOr;
+using GamesUp.Domain.Repositories;
+using GamesUp.Domain.Services.Communication;
 using GamesUp.Models;
-using GamesUp.Persistence;
-using GamesUp.ServiceErrors;
 
 namespace GamesUp.Services;
 
 public class GameService : IGameService
 {
-    private readonly GamesUpDbContext _dbContext;
+    private readonly IGameRepository _gameRepository;
 
-    public GameService(GamesUpDbContext dbContext)
+    public GameService(IGameRepository gameRepository)
     {
-        _dbContext = dbContext;
+        _gameRepository = gameRepository;
     }
 
-    public ErrorOr<Created> CreateGame(Game game)
+    public async Task<GameResponse> GetGameByIdAsync(Guid id)
     {
-        _dbContext.Add(game);
-        _dbContext.SaveChanges();
+        var game = await _gameRepository.GetGameByIdAsync(id);
 
-        return Result.Created;
-    }
-
-    public ErrorOr<Game> GetGame(Guid id)
-    {
-        if (_dbContext.Games.Find(id) is Game game)
+        if (game == null)
         {
-            return game;
+            return new GameResponse("Game not found.");
         }
-
-        return Errors.Game.NotFound;
-    }
-
-    public ErrorOr<List<Game>> GetAllGames()
-    {
-        var games = _dbContext.Games.ToList();
-
-        if (games.Count > 0)
-        {
-            return games;
-        }
-
-        return Errors.Game.NotFound;
-    }
-
-    public ErrorOr<UpsertedGame> UpsertGame(Game game)
-    {
-        var isNewlyCreated = !_dbContext.Games.Any(g => g.Id == game.Id);
-
-        if (isNewlyCreated)
-        {
-            _dbContext.Games.Add(game);
-        }
-        else
-        {
-            _dbContext.Games.Update(game);
-        }
-
-        _dbContext.SaveChanges();
-
-        return new UpsertedGame(isNewlyCreated);
-    }
-
-    public ErrorOr<Deleted> DeleteGame(Guid id)
-    {
-        var game = _dbContext.Games.Find(id);
-
-        if (game is null)
-        {
-            return Errors.Game.NotFound;
-        }
-
-        _dbContext.Remove(game);
-        _dbContext.SaveChanges();
         
-        return Result.Deleted;
+        return new GameResponse(game);
     }
-    public ErrorOr<List<Game>> CreateGames(List<Game> games)
+    
+    public async Task<IEnumerable<Game>> GetAllGamesAsync()
     {
-        _dbContext.Games.AddRange(games);
-        _dbContext.SaveChanges();
-
+        var games = await _gameRepository.GetAllGamesAsync();
+        
         return games;
     }
+    
+    public async Task<GameResponse> AddGameAsync(Game game)
+    {
+        try
+        {
+            await _gameRepository.AddGameAsync(game);
+            return new GameResponse(game);
+        }
+        catch (Exception ex)
+        {
+            return new GameResponse($"An error occurred when adding the game: {ex.Message}");
+        }
+    }
+    
+    public async Task<GameResponse> AddGamesAsync(IEnumerable<Game> games)
+    {
+        try
+        {
+            await _gameRepository.AddGamesAsync(games);
+            return new GameResponse(games);
+        }
+        catch (Exception ex)
+        {
+            return new GameResponse($"An error occurred when adding the games: {ex.Message}");
+        }
+    }
+    
+    public async Task<GameResponse> UpdateGameAsync(Guid id, Game game)
+    {
+        var existingGame = await _gameRepository.GetGameByIdAsync(id);
+
+        if (existingGame == null)
+        {
+            return new GameResponse("Game not found.");
+        }
+
+        existingGame.Name = game.Name;
+        existingGame.Description = game.Description;
+        existingGame.ReleaseDate = game.ReleaseDate;
+        existingGame.CoverPath = game.CoverPath;
+        existingGame.Developer = game.Developer;
+        existingGame.Publisher = game.Publisher;
+        existingGame.Category = game.Category;
+        existingGame.Platform = game.Platform;
+
+        try
+        {
+            _gameRepository.UpdateGame(existingGame);
+            return new GameResponse(existingGame);
+        }
+        catch (Exception ex)
+        {
+            return new GameResponse($"An error occurred when updating the game: {ex.Message}");
+        }
+    }
+    
+    public async Task<GameResponse> DeleteGameAsync(Guid id)
+    {
+        var existingGame = await _gameRepository.GetGameByIdAsync(id);
+
+        if (existingGame == null)
+        {
+            return new GameResponse("Game not found.");
+        }
+
+        try
+        {
+            _gameRepository.DeleteGame(existingGame);
+            return new GameResponse(existingGame);
+        }
+        catch (Exception ex)
+        {
+            return new GameResponse($"An error occurred when deleting the game: {ex.Message}");
+        }
+    }
+    
+    
 }
